@@ -1,0 +1,2 @@
+# Preserve frozen source/data bytes across Windows and Unix checkouts.
+* -text
