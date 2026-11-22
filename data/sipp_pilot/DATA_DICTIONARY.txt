@@ -1,0 +1,17 @@
+SIPP conditional pilot (separate from the original ACS confirmation)
+
+Unit: prior-interview household cluster, not current address or Census sampling PSU. The retrospective main cohort contains 7,938 fully observed clusters and 13,321 baseline-eligible adults. The reported-only sensitivity contains 7,726 clusters/12,865 adults, requiring every eligible baseline adult's education status flag to indicate as reported in both waves. These are different target subsets.
+
+scope: all_released or reported_only. m: number of prior clusters selected without replacement. R: 2000 paired sampling repetitions per case. H: full conditional-frame cluster count. truth: fixed standardized BA+ contrast in released records, using prior weights and prior reference; not resident truth or verified degrees.
+
+MSE: squared proportions (multiply by10000 for squared percentage points). MSE_MCSE: conditional Monte Carlo standard error of squared-error mean in the same units. bias, MAE, width95, truth: proportions (multiply by100 for percentage points). coverage95/90 and confidence bounds: proportions. Coverage MC95 limits describe the simulation proportion, not an interval for national or geographic generalization. zero_variance_draws counts zero residual-variance draws; it is not omitted from coverage evaluation. mean_adult_labels is the number of adult records observed under the conditional simulated selection, not money or field-contact cost.
+
+Reporting: tau is the fixed resolution in proportions (0.01/0.02/0.05). correct, wrong and unresolved are counts out of R. correct_yield and wrong_per_attempt divide by all attempts. wrong_given_report divides by correct+wrong and is undefined when no report is made. The 95% normal interval must lie wholly outside either side of the band or wholly inside the band to produce a report; otherwise it is unresolved.
+
+SRS_prior_cells: previous-wave age/sex/nativity cell prediction. SRS_prior_BA: previous individual BA+ status as prediction. proportional_prior_BA and working_Neyman_prior_BA use that same individual predictor with alternate mature allocations. The working risk uses prior-cell Bernoulli variability and historical composition; it is not a learned current education-change probability.
+
+Simulation NPZs contain only point, variance, resources, count, methods, truth, m, R and H. Rows are repetitions, not people. No selected-person or household IDs are included. Linked person records, prior/current rosters and trained models are not distributed.
+
+Data years: 2024 SIPP describes2023;2025 SIPP describes2024. The public2024file was released24July2025, after2025fieldwork. Historical reference dates do not establish availability of final weights before selection. Current/longitudinal weights are not used by this pilot; prior final weights and retrospective complete-case membership still prevent a prospective field-validation claim.
+
+The prior reference q was fixed before2025education parsing. All five methods and both budgets are retained. Reported-only sensitivity is not independent qualification verification. Missing-outcome sensitivity bounds in sipp_audit are not confidence limits and do not resolve current eligibility of nonmatches.

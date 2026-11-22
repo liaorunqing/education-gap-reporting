@@ -44,6 +44,7 @@
   "data/sipp_audit/panel_retention.csv": "8c1efe239549650cbff2afb4aca0f38e6a450b90a05e4cfef305af4c35ca3e52",
   "data/sipp_pilot/all_released_1000_simulation.npz": "5e13e98ded572ff86f0b2a0dca5cd7c06efda7c657eb7701821547eb1f6c2683",
   "data/sipp_pilot/all_released_300_simulation.npz": "4ec80e9485a5a9d15b61c94e12d47aff8f5a1afeff917bc3a425b120e5047a2b",
+  "data/sipp_pilot/DATA_DICTIONARY.txt": "9e1d00d07ab11e43bd30a6e4f94c2db79594edb8e43a341be076fdbefea92087",
   "data/sipp_pilot/paired_comparisons.csv": "0719e213d2bed6ca4ac67379e8f91c6fbd5d04171648bb85d8cdef3b583cb471",
   "data/sipp_pilot/point_interval_results.csv": "ec76f93ce665de6b481483df94e2eeed2de8b5966ccc02dc7ed0848e987cd19e",
   "data/sipp_pilot/reported_only_1000_simulation.npz": "64096c10ce57e7656d671989b515e58b7b043468a5f815e8fe21141958a0011c",
