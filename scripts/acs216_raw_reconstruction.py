@@ -4,6 +4,9 @@ Input source ZIPs are checked against published checksums. Existing model or der
 array files are never copied into the reconstruction. Legacy implementation modules
 are redirected to a new workspace; final-label guards remain active there.
 """
+import os
+os.environ['OMP_NUM_THREADS']='1'
+os.environ['OPENBLAS_NUM_THREADS']='1'
 from pathlib import Path
 from datetime import datetime,timezone
 import argparse,hashlib,json,pickle,shutil,sys,time
@@ -125,13 +128,18 @@ def run(rawdir,workdir):
     reference=PUBLIC/'data/saved_draws/2024_ct_1000.npz'
     if reference.exists():
         with np.load(reference,allow_pickle=False) as a,np.load(out/'draws/raw_rebuild/2024_ct_1000.npz',allow_pickle=False) as b:
-            differences={}
+            differences={};passed=[];method_differences=[]
+            for j,method in enumerate(a['methods'].tolist()):
+                method_differences.append(dict(method=method,point_max=float(np.max(abs(a['point'][:,j]-b['point'][:,j]))),
+                    variance_max=float(np.max(abs(a['variance'][:,j]-b['variance'][:,j]))),
+                    resources_exact=bool(np.array_equal(a['resources'][:,j],b['resources'][:,j]))))
             for key in ['point','variance','count','resources','GREG_cell_ranks','CPS_GREG_ranks']:
                 differences[key]=float(np.max(np.abs(a[key]-b[key])))
-                if key in ['point','variance']:assert np.allclose(a[key],b[key],rtol=2e-10,atol=2e-12),(key,differences[key])
-                else:assert np.array_equal(a[key],b[key]),(key,differences[key])
+                passed.append(bool(np.allclose(a[key],b[key],rtol=2e-10,atol=2e-12)) if key in ['point','variance'] else bool(np.array_equal(a[key],b[key])))
         dump(work/'saved_reference_comparison.json',dict(differences=differences,tolerances=dict(rtol=2e-10,atol=2e-12),
-               reference_used_only_after_refit_and_resampling=True))
+               reference_used_only_after_refit_and_resampling=True,all_criteria_passed=all(passed),methods=method_differences))
+        print('REFERENCE_METHOD_DIFFERENCES',json.dumps(method_differences),flush=True)
+        assert all(passed),('Strict pathwise reference criterion failed',differences)
         event('SAVED_REFERENCE_COMPARISON_PASSED',max_difference=max(differences.values()))
     dump(work/'rebuild_completed.json',dict(utc=datetime.now(timezone.utc).isoformat(),repetitions=2000,methods=16,
         source_HGB_retrained=True,household_risk_models_retrained=True,pretrained_or_derived_array_inputs=False,
