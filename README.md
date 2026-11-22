@@ -77,3 +77,5 @@ This work was supported by the National Natural Science Foundation of China (No.
 OpenAI Codex assisted code development, checks and documentation; this does not replace author review or imply confirmed author contribution roles. See the manuscript's final author declarations when available.
 
 Timing qualification: the 2024 SIPP public file was released on 24 July 2025, after the February–June 2025 follow-up fieldwork. Earlier-reference final weights are not thereby proven available before selection. Historical responses can precede recontact internally, but this retrospective public-file pilot does not validate an as-of operational extract or preselection availability of final weights. See data/sipp_audit/availability_timing_audit.json.
+
+To regenerate Supplementary Figure S3 from released aggregate CSVs only, run `python scripts/acs226_sipp_figure.py`. Output goes to the ignored `reproduced_figures` directory.
