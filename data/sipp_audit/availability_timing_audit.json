@@ -1,0 +1,16 @@
+{
+  "2024_SIPP_reference_period": "January-December2023",
+  "2024_SIPP_fieldwork": "February-May2024 (2024 Users Guide)",
+  "2024_SIPP_public_release": "2025-07-24, Census press release CB25-TPS.54",
+  "2025_SIPP_reference_period": "January-December2024",
+  "2025_SIPP_fieldwork": "February-June2025, 2025UsersGuide p16",
+  "2025_SIPP_public_release": "2026-07-15 per2025UsersGuide cover",
+  "operator_prior_background_available": "Recorded in earlier interview for retained cases; full operational extract not independently audited",
+  "public_prior_final_weights_as_of_2025_selection": "NOT established; earlier reference year is not proof of availability before fieldwork",
+  "interpretation": "Retrospective, final-vintage conditional pilot; no prospective public-data-only field feasibility claim",
+  "source_urls": [
+    "https://www.census.gov/newsroom/press-releases/2025/2024-sipp.html",
+    "https://www2.census.gov/programs-surveys/sipp/tech-documentation/methodology/2025_SIPP_Users_Guide.pdf"
+  ],
+  "2024_public_release_after_2025_fieldwork": true
+}

@@ -1,0 +1,25 @@
+{
+  "raw_only_reconstruction_passed": true,
+  "used_source_HGB_retrained": true,
+  "used_coarse_RF_HGB_risk_models_retrained": true,
+  "input_ZIPs": 60,
+  "state": "ct",
+  "year": 2024,
+  "household_count": 1000,
+  "repetitions": 2000,
+  "methods": 16,
+  "artifact_fields_compared": 29,
+  "all_compared_fields_bytewise_numeric_exact": true,
+  "maximum_floating_difference": 0,
+  "all_counts_resources_and_report_categories_exact": true,
+  "point_interval_rows": 32,
+  "reporting_rows": 96,
+  "old_protected_files_unchanged": 8,
+  "excludes": [
+    "Unused source learner families",
+    "Historical fivefold diagnostics",
+    "Other states and household budgets"
+  ],
+  "independent_new_holdout": false,
+  "new_scientific_gain_claimed": false
+}

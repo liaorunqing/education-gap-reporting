@@ -1,0 +1,22 @@
+{
+  "status": "Technical reconstruction of already-scored ACS plus a new-source feasibility study; not public preregistration",
+  "reconstruction": {
+    "state": "ct",
+    "year": 2024,
+    "household_budget": 1000,
+    "repetitions": 2000,
+    "methods": 16,
+    "seed": 739,
+    "input": "Only official ACS source ZIPs, source metadata and frozen configuration; no pretrained models or derived person/household arrays as model inputs",
+    "stages": [
+      "Reconstruct 2017 national 100000-person training sample across all 51 states/DC",
+      "Refit only the source HGB actually used; rebuild full-source historical cell rates",
+      "Rebuild 2022 household training data and fixed age/sex reference from eight states",
+      "Refit the coarse/RF/HGB risk inputs actually used for CT designs",
+      "Build 2024 CT background/design before opening its already-scored target labels",
+      "Run all 2000 CT repetitions/16 methods in a new directory; compare saved estimates, variances, counts, resources and final metrics"
+    ],
+    "pass_rule": "Exact counts/resources/categories; estimates/variances numerical equivalence rtol 2e-10, atol 2e-12. All discrepancies disclosed; no retuning to match",
+    "exclusions": "Does not reconstruct discarded predictor families, fivefold diagnostics or all other states/budgets; no claim of a new unseen holdout"
+  }
+}

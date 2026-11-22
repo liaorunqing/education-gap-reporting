@@ -1,0 +1,26 @@
+name: Rebuild from official raw files
+on: workflow_dispatch
+jobs:
+  ACS-used-path:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/acs222_fetch_sources.py --raw-dir data/raw --workers 3
+      - run: python scripts/acs216_raw_reconstruction.py --raw-dir data/raw --workdir reconstructed_CT
+  SIPP-conditional-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/acs223_sipp_reproduce.py --fetch --raw-dir data/raw/sipp --workdir reconstructed_SIPP

@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-11-22T05:30:54.245931+00:00",
+  "status": "Prospective-to-new-file-labels local pilot plan; not registered and not a field trial",
+  "source": "Official SIPP 2024 (reference 2023) and SIPP 2025 (reference 2024), after documented 2023-and-earlier education allocation issue",
+  "columns": [
+    "SSUID",
+    "PNUM",
+    "SHHADID",
+    "SPANEL",
+    "SWAVE",
+    "MONTHCODE",
+    "WPFINWGT",
+    "TAGE",
+    "TAGE_EHC",
+    "ESEX",
+    "EEDUC",
+    "AEDUC",
+    "EBORNUS",
+    "ABORNUS",
+    "ECITIZEN",
+    "ENATCIT",
+    "TBORNPLACE",
+    "RHNUMPER"
+  ],
+  "record": "December reference-month record only; unique SPANEL/SSUID/PNUM",
+  "prior_frame": "2024 December rows, baseline age TAGE_EHC>=25, positive WPFINWGT, panels 2022/2023/2024 (scheduled to continue in 2025)",
+  "cluster": "SPANEL + SSUID + prior SHHADID (household at prior interview), fixed before later-wave matching",
+  "linkage": "SPANEL/SSUID/PNUM, with SWAVE increment exactly 1; audit nonmatches and new persons, never match by names",
+  "group_definition": "Native if EBORNUS=1 or ENATCIT in {4,5}; foreign if EBORNUS=2 and [ECITIZEN=2 or ENATCIT in {1,2,3}]. Other combinations are missing, never forced to either group. Audit coding comparability with ACS.",
+  "binary_outcome": "EEDUC>=43 among valid codes31..46; retain AEDUC flags; reported-only sensitivity requires AEDUC=1 in both waves",
+  "field_gates": [
+    "Complete prior roster does not imply current roster or current person weights",
+    "Prior-wave groups/weights/age/sex/education only as predictive/design inputs",
+    "Report planned panel rotation separately from unscheduled nonobservation",
+    "Separate households with members lost/new from retrospective fully matched clusters",
+    "Public EEDUC label is not independently verified qualification; investigate feed-forward"
+  ],
+  "audit_metrics": [
+    "Eligible historical adults/clusters and nativity cells",
+    "Person retention and complete-cluster fraction",
+    "New entrants and household splits",
+    "Age/sex/birth-group inconsistencies",
+    "Education and BA+ transitions, including reversals",
+    "Allocation-flag transitions and positivity"
+  ],
+  "conditional_pilot": {
+    "gate": "At least1000 fully linked baseline clusters; all12 demographic cells positive; otherwise no simulation",
+    "target": "Only the retrospective fully observed baseline clusters; no claim this subset was knowable preselection or representative of residents",
+    "fixed_weights": "Prior 2024 WPFINWGT; no current or longitudinal calibrated weights presented as known in advance",
+    "standardization": "Equal-nativity average of the prior weighted six age/sex compositions, fixed before 2025 education parsing",
+    "predictions": [
+      "zero (direct HT)",
+      "Prior-wave age/sex/nativity cell BA+ rates",
+      "Prior individual BA+ (carry-forward)"
+    ],
+    "methods": [
+      "SRS_HT",
+      "SRS_prior_cells",
+      "SRS_prior_BA",
+      "proportional_prior_BA",
+      "working_Neyman_prior_BA"
+    ],
+    "risk": "Preselection household sum of squared target coefficients times prior-cell Bernoulli variance; eight background strata, up to4 within-stratum risk bins; integer Neyman allocation",
+    "budgets": [
+      300,
+      1000
+    ],
+    "repetitions": 2000,
+    "seed": 739,
+    "metrics": [
+      "MSE",
+      "bias",
+      "MAE",
+      "90/95coverage",
+      "interval width",
+      "unresolved and wrong/correct report fractions at1/2/5pp"
+    ],
+    "contrast": "Prior BA carry-forward vs prior-cell and direct controls; allocation vs SRS with same prior-BA predictor. No best-method selection from target outcomes",
+    "sensitivity": "Reported-only (both AEDUC=1) changes target subset; disclose sample selection and do not call it ground truth"
+  },
+  "not_a_solution": "Failure of historical-to-current roster coverage remains a deployment limitation even if conditional pilot precision improves. Attrition and field costs are not solved by resampling retained cases."
+}

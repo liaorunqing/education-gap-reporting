@@ -1,0 +1,364 @@
+{
+  "SSUID": {
+    "label": "Sample unit identifier. This identifier is created by scrambling together PSU, Sequence #1, Sequence #2, and the Frame Indicator for a case. It may be used in matching sample units from different waves.",
+    "predicateType": "string",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "-999": "NA-Missing"
+      }
+    }
+  },
+  "PNUM": {
+    "label": "Person number",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "-999": "NA-Missing"
+      },
+      "range": [
+        {
+          "min": "101",
+          "max": "499",
+          "description": "Person Number"
+        }
+      ]
+    }
+  },
+  "SHHADID": {
+    "label": "Household ID at time of interview. Used to differentiate households spawned from an original sample household.",
+    "predicateType": "string",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "-999": "NA-Missing"
+      }
+    }
+  },
+  "SPANEL": {
+    "label": "Panel year",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "2024": "Panel Year",
+        "2021": "Panel Year",
+        "2023": "Panel Year",
+        "-9": "NA or Missing",
+        "2022": "Panel Year"
+      }
+    }
+  },
+  "SWAVE": {
+    "label": "Wave number of interview",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "-999": "NA-Missing"
+      },
+      "range": [
+        {
+          "min": "1",
+          "max": "4",
+          "description": "Wave"
+        }
+      ]
+    }
+  },
+  "MONTHCODE": {
+    "label": "Value of reference month",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "6": "June",
+        "9": "September",
+        "4": "April",
+        "7": "July",
+        "8": "August",
+        "1": "January",
+        "2": "February",
+        "3": "March",
+        "11": "November",
+        "5": "May",
+        "10": "October",
+        "12": "December",
+        "-9": "NA or Missing"
+      }
+    }
+  },
+  "WPFINWGT": {
+    "label": "Final person weight",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "is-weight": true,
+    "values": {
+      "item": {
+        "-999.00000000": "NA-Missing"
+      },
+      "range": [
+        {
+          "min": "0.0",
+          "max": "1.0E7",
+          "description": "Weight"
+        }
+      ]
+    }
+  },
+  "TAGE": {
+    "label": "Age as of last birthday",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "-999": "NA-Missing"
+      },
+      "range": [
+        {
+          "min": "0",
+          "max": "90",
+          "description": "Age"
+        }
+      ]
+    }
+  },
+  "TAGE_EHC": {
+    "label": "Monthly age during the reference period.",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "-999": "NA-Missing"
+      },
+      "range": [
+        {
+          "min": "0",
+          "max": "90",
+          "description": "Age"
+        }
+      ]
+    }
+  },
+  "ESEX": {
+    "label": "Sex of this person",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "2": "Female",
+        "-9": "NA or Missing",
+        "1": "Male"
+      }
+    }
+  },
+  "EEDUC": {
+    "label": "What is the highest level of school . completed or the highest degree received by December of (reference year)?",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "31": "Less than 1st grade",
+        "44": "Master's degree (for example:  MA, MS, MBA, MSW)",
+        "35": "9th grade",
+        "-9": "NA or Missing",
+        "41": "1 or more years of college, no degree (regular Jr.coll./coll./univ.)",
+        "32": "1st, 2nd, 3rd or 4th grade",
+        "33": "5th or 6th grade",
+        "34": "7th or 8th grade",
+        "45": "Professional School degree (for example:  MD (doctor), DDS (dentist), JD (lawyer))",
+        "36": "10th grade",
+        "42": "Associate's degree (2-year college)",
+        "37": "11th grade",
+        "38": "12th grade, no diploma",
+        "39": "High School Graduate (diploma or GED or equivalent)",
+        "40": "Some college credit, but less than 1 year (regular Jr.coll./coll./univ.)",
+        "46": "Doctorate degree (for example:  Ph.D., Ed.D.)",
+        "43": "Bachelor's degree (for example:  BA, AB, BS)"
+      }
+    }
+  },
+  "AEDUC": {
+    "label": "Status flag for EEDUC",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "5": "Cold-deck value imputation",
+        "6": "Imputed from a range",
+        "3": "Logical imputation",
+        "8": "Combination of 2/3/5/6",
+        "-99": "Suppressed",
+        "0": "Not in universe",
+        "2": "Statistical imputation (hot-deck)",
+        "1": "In universe, as reported",
+        "4": "Model-based imputation",
+        "7": "Combination of 1 and 2/3/5/6",
+        "9": "Can be determined form the status flags for the components of this recode"
+      }
+    }
+  },
+  "EBORNUS": {
+    "label": "Was.born in the United States?",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "-9": "NA or Missing",
+        "1": "Yes",
+        "2": "No"
+      }
+    }
+  },
+  "ABORNUS": {
+    "label": "Status flag for EBORNUS",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "1": "In universe, as reported",
+        "4": "Model-based imputation",
+        "6": "Imputed from a range",
+        "9": "Can be determined form the status flags for the components of this recode",
+        "-99": "Suppressed",
+        "5": "Cold-deck value imputation",
+        "7": "Combination of 1 and 2/3/5/6",
+        "8": "Combination of 2/3/5/6",
+        "0": "Not in universe",
+        "2": "Statistical imputation (hot-deck)",
+        "3": "Logical imputation"
+      }
+    }
+  },
+  "ECITIZEN": {
+    "label": "Is . a citizen of the United States?",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "1": "Yes",
+        "-9": "NA or Missing",
+        "2": "No"
+      }
+    }
+  },
+  "ENATCIT": {
+    "label": "How did . become a U.S citizen?",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "4": "Born in a U.S. Island Area or born in the United States",
+        "5": "Born abroad of U.S. citizen parent or parents",
+        "-9": "NA or Missing",
+        "2": "Through their or their spouse's military service in the Armed Forces",
+        "1": "Naturalized",
+        "3": "Adopted by U.S. citizen parent or parents"
+      }
+    }
+  },
+  "TBORNPLACE": {
+    "label": "Recoded Place of Birth",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "08": "Colorado",
+        "12": "Florida",
+        "56": "Wyoming",
+        "16": "Idaho",
+        "19": "Iowa",
+        "21": "Kentucky",
+        "26": "Michigan",
+        "27": "Minnesota",
+        "28": "Mississippi",
+        "46": "South Dakota",
+        "09": "Connecticut",
+        "10": "Delaware",
+        "11": "District of Columbia",
+        "15": "Hawaii",
+        "17": "Illinois",
+        "64": "Africa",
+        "37": "North Carolina",
+        "41": "Oregon",
+        "53": "Washington",
+        "54": "West Virginia",
+        "13": "Georgia",
+        "23": "Maine",
+        "36": "New York",
+        "40": "Oklahoma",
+        "44": "Rhode Island",
+        "20": "Kansas",
+        "66": "Other",
+        "39": "Ohio",
+        "45": "South Carolina",
+        "02": "Alaska",
+        "04": "Arizona",
+        "48": "Texas",
+        "06": "California",
+        "18": "Indiana",
+        "60": "Puerto Rico and Island Areas",
+        "61": "Europe",
+        "65": "Oceania",
+        "47": "Tennessee",
+        "05": "Arkansas",
+        "50": "Vermont",
+        "-9": "NA or Missing",
+        "62": "Asia and Pacific Islands",
+        "22": "Louisiana",
+        "33": "New Hampshire",
+        "34": "New Jersey",
+        "01": "Alabama",
+        "49": "Utah",
+        "51": "Virginia",
+        "24": "Maryland",
+        "31": "Nebraska",
+        "32": "Nevada",
+        "55": "Wisconsin",
+        "63": "Americas and Caribbean",
+        "25": "Massachusetts",
+        "29": "Missouri",
+        "30": "Montana",
+        "35": "New Mexico",
+        "38": "North Dakota",
+        "42": "Pennsylvania"
+      }
+    }
+  },
+  "RHNUMPER": {
+    "label": "Number of persons in household this month",
+    "predicateType": "int",
+    "group": "N/A",
+    "limit": 0,
+    "values": {
+      "item": {
+        "-999": "NA-Missing"
+      },
+      "range": [
+        {
+          "min": "1",
+          "max": "20",
+          "description": "Persons"
+        }
+      ]
+    }
+  }
+}

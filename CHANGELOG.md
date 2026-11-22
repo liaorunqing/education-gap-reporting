@@ -1,5 +1,10 @@
 # Release history
 
+## 1.1.0
+
+Add a raw-only used-path CT reconstruction with refitted source/risk models, verified 2,000 draws across 16 methods, plus a separately planned public SIPP roster audit and five-control conditional pilot. No old ACS result or holdout is changed. The real-panel evidence documents prior information and incomplete follow-up, not complete field feasibility.
+
+
 ## 1.0.1
 
 Separate archive byte integrity from numerical reproduction across operating systems. All frozen data are unchanged. Recomputed integer counts/categories must match exactly; floating CSV values use rtol=2e-12, atol=2e-14. The original Windows reconstruction remains byte-identical for all four CSVs.

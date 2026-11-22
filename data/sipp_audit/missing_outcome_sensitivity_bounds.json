@@ -1,0 +1,14 @@
+{
+  "lower": -0.3756465084865913,
+  "upper": 0.39459784611710214,
+  "width": 0.7702443546036934,
+  "observed_cohort": 13845,
+  "missing_cohort": 8741,
+  "weights": "Fixed 2024 prior weights and prior age/sex standard; not follow-up or longitudinal weights",
+  "mathematical_definition": "For a binary outcome assumed defined for every baseline-cohort record, assign each unavailable value in [0,1]; sum signed standardization coefficients",
+  "formula": "L=sum_observed a_i*y_i + sum_missing min(a_i,0); U=sum_observed a_i*y_i + sum_missing max(a_i,0)",
+  "is_confidence_interval": false,
+  "identifies_current_resident_population": false,
+  "eligibility_caveat": "Death, outmigration and current eligibility are not resolved by public nonmatches. These are hypothetical missing-outcome sensitivity bounds, not bounds for a verified live-resident target.",
+  "implication": "Historical predictors or resampling of complete cases do not identify a full baseline-cohort contrast without further response/eligibility assumptions."
+}

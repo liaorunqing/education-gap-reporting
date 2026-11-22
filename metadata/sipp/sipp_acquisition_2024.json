@@ -1,0 +1,16 @@
+{
+  "year": 2024,
+  "url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/pu2024_csv.zip",
+  "bytes": 102122301,
+  "sha256": "3a78b26988c76c02b9e206f72507390fb6ec9dac7974ec31aa90abc9d9809764",
+  "utc": "2026-11-22T05:35:43.479494+00:00",
+  "members": [
+    {
+      "name": "pu2024.csv",
+      "compressed": 102122131,
+      "uncompressed": 3433662421
+    }
+  ],
+  "education_parsed": false,
+  "plan_sha256": "d0725f993558a026bb1b0dc85e44bd13ad8a5316523adb457dad9c47fb799bdd"
+}

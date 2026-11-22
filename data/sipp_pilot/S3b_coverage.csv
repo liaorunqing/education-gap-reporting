@@ -1,0 +1,6 @@
+,Released300,Released1000,Reported300,Reported1000
+Direct SRS,94.0,94.5,93.65,93.75
+Prior cells + SRS,95.3,96.2,95.0,94.19999999999999
+Prior BA + SRS,78.5,89.8,80.45,91.3
+Prior BA + proportional,80.45,90.8,81.2,91.2
+Prior BA + working Neyman,91.5,94.0,91.10000000000001,94.45

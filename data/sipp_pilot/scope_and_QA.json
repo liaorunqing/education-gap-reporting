@@ -1,0 +1,61 @@
+{
+  "scopes": [
+    {
+      "scope": "all_released",
+      "clusters": 7938,
+      "adults": 13321,
+      "foreign_adults": 2011,
+      "fixed_prior_weight_sum": 109928725.94686085,
+      "target_gap": 0.02183021686411006,
+      "target": "Retrospective fully linked baseline clusters; prior weights and prior-age/sex reference, not current residents",
+      "source_prior_cells": [
+        0.39831959556013946,
+        0.5253950513005675,
+        0.49255196394670414,
+        0.5413715142614256,
+        0.3534462980670553,
+        0.4226592376464125,
+        0.4237180340207791,
+        0.4085616132236244,
+        0.3708800564446147,
+        0.4073620121292258,
+        0.3275899374743028,
+        0.3199248125841839
+      ],
+      "current_weights_used": false
+    },
+    {
+      "scope": "reported_only",
+      "clusters": 7726,
+      "adults": 12865,
+      "foreign_adults": 1913,
+      "fixed_prior_weight_sum": 106519764.61027896,
+      "target_gap": 0.0300914697525201,
+      "target": "Retrospective fully linked baseline clusters; prior weights and prior-age/sex reference, not current residents",
+      "source_prior_cells": [
+        0.39831959556013946,
+        0.5253950513005675,
+        0.49255196394670414,
+        0.5413715142614256,
+        0.3534462980670553,
+        0.4226592376464125,
+        0.4237180340207791,
+        0.4085616132236244,
+        0.3708800564446147,
+        0.4073620121292258,
+        0.3275899374743028,
+        0.3199248125841839
+      ],
+      "current_weights_used": false
+    }
+  ],
+  "plan_sha256": "d0725f993558a026bb1b0dc85e44bd13ad8a5316523adb457dad9c47fb799bdd",
+  "current_weights_never_used": true,
+  "all_household_counts_exact": true,
+  "all_samples_unique": true,
+  "future_complete_case_membership_not_available_preselection": true,
+  "design_coverage_is_conditional": true,
+  "field_cost_saving_claimed": false,
+  "new_verified_degree_labels_claimed": false,
+  "independent_new_ACS_holdout_claimed": false
+}

@@ -1,0 +1,30 @@
+file,key,shape,exact,max_abs_difference,passed
+background/2024_ct.npz,ids,[26625],True,,True
+background/2024_ct.npz,unit,[14737],True,,True
+background/2024_ct.npz,h,[26625],True,0.0,True
+background/2024_ct.npz,w,[26625],True,0.0,True
+background/2024_ct.npz,g,[26625],True,0.0,True
+background/2024_ct.npz,age,[26625],True,0.0,True
+background/2024_ct.npz,sex,[26625],True,0.0,True
+background/2024_ct.npz,nativity,[26625],True,0.0,True
+background/2024_ct.npz,f,[26625],True,0.0,True
+background/2024_ct.npz,fc,[26625],True,0.0,True
+background/2024_ct.npz,member_count,[14737],True,0.0,True
+units/2024_ct.npz,F,"[14737, 2]",True,0.0,True
+units/2024_ct.npz,Fc,"[14737, 2]",True,0.0,True
+units/2024_ct.npz,Z,"[14737, 14]",True,0.0,True
+units/2024_ct.npz,X,"[14737, 12]",True,0.0,True
+units/2024_ct.npz,stratum,[14737],True,0.0,True
+units/2024_ct.npz,adult_counts,[14737],True,0.0,True
+units/2024_ct.npz,working_risk,[14737],True,0.0,True
+risk_predictions/2024_ct.npz,risk,"[14737, 3]",True,0.0,True
+scores/2024_ct.npz,Y,"[14737, 2]",True,0.0,True
+scores/2024_ct.npz,T,"[14737, 2]",True,0.0,True
+scores/2024_ct.npz,Tc,"[14737, 2]",True,0.0,True
+scores/2024_ct.npz,truth,[2],True,0.0,True
+draws/CT1000,point,"[2000, 16, 2]",True,0.0,True
+draws/CT1000,variance,"[2000, 16, 2]",True,0.0,True
+draws/CT1000,count,"[2000, 16]",True,0.0,True
+draws/CT1000,resources,"[2000, 16, 2]",True,0.0,True
+draws/CT1000,GREG_cell_ranks,[2000],True,0.0,True
+draws/CT1000,CPS_GREG_ranks,"[2000, 2]",True,0.0,True

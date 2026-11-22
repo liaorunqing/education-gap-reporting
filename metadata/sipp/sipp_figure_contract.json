@@ -1,0 +1,25 @@
+{
+  "backend": "python",
+  "status": "Post-score descriptive figure, not a new confirmatory selection",
+  "conclusion": "Observed prior-wave information helps precision, but follow-up is incomplete and first-order interval/report quality must be checked separately",
+  "archetype": "quantitative grid",
+  "panels": [
+    "Prior household follow-up categories",
+    "All five methods/four planned scope-budget cases coverage",
+    "All five methods near-band reports"
+  ],
+  "units": "Baseline household clusters for sampling; 2000 conditional simulation repetitions, not independent countries or people",
+  "axes": "Retention/report panels full0-100%; coverage cell labels actual percentages, color explicitly shows95minusobserved from-5to20pp",
+  "uncertainty": "Empirical fractions; conditional MC95 limits in source tables, no statistical-significance encoding",
+  "exclusions": "Planned panel2021rotation excluded before matching; all primary and reported-only pilot methods/budgets shown",
+  "outputs": [
+    "PDF",
+    "SVG",
+    "PNG",
+    "TIFF"
+  ],
+  "size_inches": [
+    7.2,
+    6.5
+  ]
+}

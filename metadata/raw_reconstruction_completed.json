@@ -1,0 +1,67 @@
+{
+  "utc": "2026-11-22T05:30:30.770501+00:00",
+  "repetitions": 2000,
+  "methods": 16,
+  "source_HGB_retrained": true,
+  "household_risk_models_retrained": true,
+  "pretrained_or_derived_array_inputs": false,
+  "skipped_components": [
+    "Other unused source predictor families",
+    "Risk fivefold diagnostics",
+    "Other final states/budgets"
+  ],
+  "reconstruction_scope": "Used source and design path for CT 1000-HU across all methods, not entire historical research programme",
+  "events": [
+    {
+      "stage": "RAW_ZIPS_VERIFIED",
+      "elapsed_seconds": 3.42,
+      "files": 60,
+      "total_compressed_bytes": 703753357
+    },
+    {
+      "stage": "SOURCE_SAMPLE_REBUILT",
+      "elapsed_seconds": 28.78,
+      "source_adults": 2254998,
+      "training_adults": 100000,
+      "sample_fingerprint": "bd18aa989f65c1388fcc073903f3150b8f9b61de270f08bd6c5072016658de20"
+    },
+    {
+      "stage": "SOURCE_HGB_REFITTED",
+      "elapsed_seconds": 32.77,
+      "iterations": 200
+    },
+    {
+      "stage": "HISTORICAL_HOUSEHOLDS_REBUILT",
+      "elapsed_seconds": 61.27,
+      "states": 8,
+      "q": [
+        0.15047310096989663,
+        0.14877889258778426,
+        0.19393153334509916,
+        0.19809435679666315,
+        0.14069748779358623,
+        0.1680246285069705
+      ]
+    },
+    {
+      "stage": "HOUSEHOLD_RISK_MODELS_REFITTED",
+      "elapsed_seconds": 230.53,
+      "households": 139533,
+      "RF_trees": 200,
+      "HGB_iterations": 200,
+      "scope": "Final fitted risk models only; fivefold diagnostics do not feed this CT design and are not rerun"
+    },
+    {
+      "stage": "REBUILT_PREDICTIONS_AND_DESIGN_FROZEN",
+      "elapsed_seconds": 233.09,
+      "target_education_opened_in_rebuild": false,
+      "files": 36
+    },
+    {
+      "stage": "FULL_CT_DRAWS_REBUILT",
+      "elapsed_seconds": 255.75,
+      "repetitions": 2000,
+      "methods": 16
+    }
+  ]
+}

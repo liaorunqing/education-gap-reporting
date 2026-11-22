@@ -5,3 +5,9 @@ reproduced*/
 raw_downloads/
 *.pkl
 *.log
+
+outputs/
+data/raw/
+reconstructed*/
+private_sipp/
+raw/
