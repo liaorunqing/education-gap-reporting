@@ -62,9 +62,18 @@ def tables(workdir):
     subprocess.run([sys.executable, str(dest/'scripts/acs201_hssc_analysis.py')], cwd=dest, check=True,
                    stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     expected = json.loads((ROOT/'metadata/expected_v8_tables.json').read_text(encoding='utf8'))
+    byte_matches = 0
     for name, h in expected.items():
-        assert hashlib.sha256((out/'analysis'/name).read_bytes()).hexdigest() == h, name
-    print('FOUR_POSTSCORE_CSVS_BYTE_IDENTICAL', len(expected))
+        generated = out/'analysis'/name
+        byte_matches += hashlib.sha256(generated.read_bytes()).hexdigest() == h
+        actual = pd.read_csv(generated)
+        reference = pd.read_csv(ROOT/'data/tables'/name)
+        # CSV line endings and final floating-point digits can vary by platform.
+        # Counts/categories remain exact; floating quantities use a roundoff tolerance.
+        pd.testing.assert_frame_equal(actual, reference, check_exact=False, rtol=2e-12, atol=2e-14)
+        for col in reference.select_dtypes(include='integer').columns:
+            assert np.array_equal(actual[col], reference[col]), (name, col)
+    print('POSTSCORE_TABLES_NUMERICALLY_VERIFIED', len(expected), 'BYTE_IDENTICAL', byte_matches)
     return out
 
 

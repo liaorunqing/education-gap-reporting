@@ -1,6 +1,6 @@
 # Population information and reliable reporting of educational attainment gaps
 
-Code and aggregate-data release **1.0.0** for the manuscript by **Runqing Liao and Zhining Wang**. Corresponding author: Zhining Wang, mathwangzhining@163.com. Both authors: School of Mathematics and Statistics, Hanshan Normal University, Chaozhou 521041, China. The manuscript is in preparation, not a peer-reviewed publication.
+Code and aggregate-data release **1.0.1** for the manuscript by **Runqing Liao and Zhining Wang**. Corresponding author: Zhining Wang, mathwangzhining@163.com. Both authors: School of Mathematics and Statistics, Hanshan Normal University, Chaozhou 521041, China. The manuscript is in preparation, not a peer-reviewed publication.
 
 We ask when finite household samples support a directional or within-band statement about the age–sex standardized BA-or-higher attainment gap between foreign-born and native adults aged 25+. The targets are fixed public ACS household respondent frames, not error-free resident-population truths. Mature allocation was useful; learned risk did not improve it consistently. This is an application and conditions-of-use study, not a new algorithm or causal explanation.
 
@@ -13,7 +13,7 @@ python -m pip install -r requirements.txt
 python reproduce.py --verify --checks --tables --workdir reproduced_tables
 ```
 
-This checks release hashes, runs exact small-population estimator/design checks, verifies nine point/interval metrics for all **768 state–budget–method–endpoint rows**, and regenerates **four v8 descriptive CSVs byte-for-byte** from the **24 frozen simulation-output files**. Those files have 2,000 repetitions per state/budget and estimates for 16 methods. A row is a simulation repetition, not a respondent. It does **not** redraw the 2024 household samples, refit a model, or constitute another final evaluation.
+This checks release hashes, runs exact small-population estimator/design checks, verifies nine point/interval metrics for all **768 state–budget–method–endpoint rows**, and regenerates **four v8 descriptive CSVs** (counts exact; floating values within rtol=2e-12 and atol=2e-14 across platforms; all four byte-identical in the original Windows environment) from the **24 frozen simulation-output files**. Those files have 2,000 repetitions per state/budget and estimates for 16 methods. A row is a simulation repetition, not a respondent. It does **not** redraw the 2024 household samples, refit a model, or constitute another final evaluation.
 
 To reconstruct a descriptive target directly from the authoritative Census release:
 
@@ -48,7 +48,7 @@ The large allocation gain assumes current linked background information and supp
 
 ## Licence, citation and funding
 
-Code: **MIT**. Author-generated aggregate results, figures and documentation: **CC BY 4.0**, with third-party rights reserved (`LICENSE-DATA`). Underlying Census data retain their original status. This research product is not endorsed or certified by the Census Bureau. Cite `CITATION.cff` and the versioned [GitHub release](https://github.com/liaorunqing/education-gap-reporting/releases/tag/v1.0.0). A Zenodo metadata file is prepared; **no Zenodo deposit or DOI is claimed**.
+Code: **MIT**. Author-generated aggregate results, figures and documentation: **CC BY 4.0**, with third-party rights reserved (`LICENSE-DATA`). Underlying Census data retain their original status. This research product is not endorsed or certified by the Census Bureau. Cite `CITATION.cff` and the versioned [GitHub release](https://github.com/liaorunqing/education-gap-reporting/releases/tag/v1.0.1). A Zenodo metadata file is prepared; **no Zenodo deposit or DOI is claimed**.
 
 This work was supported by the National Natural Science Foundation of China (No. 12271132) and the fund provided by the Department of Education of Guangdong Province, China (No. 2024ZDZX1027).
 

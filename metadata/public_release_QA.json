@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "public_files_built_by_allowlist": true,
   "source_metadata_files": 83,
   "respondent_arrays_distributed": false,
@@ -49,5 +49,11 @@
   "secret_and_identifier_pattern_hits": [],
   "full_raw_to_training_pipeline_newly_reproduced": false,
   "independent_new_holdout": false,
-  "field_roster_verified": false
+  "field_roster_verified": false,
+  "four_v8_tables_byte_identical_scope": "Original Windows environment; other platforms use exact counts and strict floating tolerance",
+  "cross_platform_tolerance": {
+    "rtol": 2e-12,
+    "atol": 2e-14,
+    "integer_counts": "exact"
+  }
 }
