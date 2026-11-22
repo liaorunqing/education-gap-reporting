@@ -1,8 +1,18 @@
 name: Rebuild from official raw files
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: Reference platform is Windows; Ubuntu is a strict portability audit
+        required: true
+        default: windows-latest
+        type: choice
+        options:
+          - windows-latest
+          - ubuntu-latest
 jobs:
   ACS-used-path:
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.platform }}
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v7.0.1

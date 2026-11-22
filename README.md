@@ -40,6 +40,8 @@ The program verifies the original source SHA256 and reproduces eligible househol
 
 ## Rebuild the used ACS pipeline from official raw files
 
+**Reference platform: Windows, Python 3.12 and the pinned dependencies.** Strict refitting parity is validated locally on Windows. The additional Linux audit agrees for 12 methods but not four learned-risk CPS variants; the largest per-draw point difference is about 0.147. This is not a CSV-format issue and the strict comparison is not relaxed. Use the manual raw workflow's platform selector to inspect either environment. See `docs/NUMERICAL_PORTABILITY.md`.
+
 ```sh
 # About 704 MB of official compressed inputs; no pretrained models are used.
 python scripts/acs222_fetch_sources.py --raw-dir data/raw
