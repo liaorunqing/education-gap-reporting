@@ -1,0 +1,49 @@
+{
+  "utc": "2026-11-20T17:19:58.898664+00:00",
+  "methods": [
+    "SRS_HT",
+    "SRS_historical_cell",
+    "SRS_HGB",
+    "SRS_GREG",
+    "proportional_HGB",
+    "Neyman_HGB",
+    "two_wave_HGB",
+    "CPS_coarse",
+    "CPS_RF",
+    "CPS_HGB",
+    "CPS_robust_HGB",
+    "SRS_GREG_cells",
+    "Neyman_working_fine",
+    "CPS_working",
+    "CPS_working_GREG",
+    "CPS_RF_GREG"
+  ],
+  "primary_comparator": "SRS_HGB; always also report SRS_GREG and Neyman_HGB",
+  "main_estimator": "Fixed2017HGB generalized difference for all allocation policies; SRS_HT/historical_cell/GREG are separate strong estimator controls",
+  "main_budgets": [
+    300,
+    1000,
+    3000
+  ],
+  "primary": 1000,
+  "R": 2000,
+  "variance": "Exact stratified finite-population for fixed predictor; conditional-remainder estimator/variance for adaptive two-wave; Deville approximate CPS; first-order GREG",
+  "two_wave": "20% initial proportional sample, at least2per nonempty coarse stratum; variance shrinkage20prior df; bounded integer residual Neyman; at least2per nonempty remainder; count both waves",
+  "robust": "Binned fixed-size adaptation of uniform/active path +20%L2uncertainty norm, rho grid0,.25,.5,.75,1; no target labels",
+  "CPS": "Grouped independent binomial rejection conditional total=m; calibrate internal odds to prescribed marginal inclusion probabilities; max marginal error2e-10",
+  "sample_units": "HU released unit; entire eligible household; m denotes HUs, not individual labels, contacts or currency",
+  "frozen_before_main_development": true,
+  "checks": {
+    "CPS_enumerated_marginal_error": 5.919464918235917e-11,
+    "CPS_HT_unbiased": true,
+    "two_wave_conditional_estimator_unbiased": true,
+    "two_wave_variance_exact_enumeration": true,
+    "constant_population_zero_variance": true,
+    "uniform_CPS_variance_equals_SRS": true,
+    "unsampled_label_perturbation_leaves_two_wave_selection_unchanged": true
+  },
+  "version": 3,
+  "amendment_utc": "2026-11-20T17:41:28.552376+00:00",
+  "amendment": "After initial12method development, before final labels: added nonlearned working-risk CPS/fine Neyman and design-matched GREG; all original12draws archived and exact replay checked in16method extension. No hyperparameter search or final outcomes used.",
+  "previous_contract_sha256": "0f617e462e8a16c4003ed5b4406667334f44b27a41d5f8c123ad0ce5af17e815"
+}

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-20T17:47:15.849049+00:00",
+  "selected_method": "Neyman_working_fine",
+  "selected_learned_method": "CPS_RF",
+  "mature_comparator": "Neyman_working_fine",
+  "coverage_screen": ".94equal-state,.90minimumstate",
+  "phase": "development_only",
+  "all_final_methods_retained": true,
+  "primary_contrasts": [
+    "mature comparator versus SRS_HGB",
+    "development-selected learned-risk bundle versus mature comparator"
+  ],
+  "allocation_only_contrasts": [
+    "CPS_RF versus CPS_working",
+    "CPS_RF_GREG versus CPS_working_GREG"
+  ]
+}

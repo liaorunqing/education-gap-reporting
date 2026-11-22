@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-20T17:23:03.200103+00:00",
+  "primary_endpoint": "standardized_gap",
+  "secondary": "raw_gap",
+  "primary_budget": 1000,
+  "CI": [
+    0.9,
+    0.95
+  ],
+  "reporting_tau": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "primary_reporting_tau": 0.02,
+  "claims": "95%CI wholly above+tau/below-tau/inside[-tau,tau], otherwise unresolved; wrong if finite-frame target not in claimed category",
+  "denominators": "All attempts, all claims and unresolved shown explicitly. Undefined conditional fractions remain missing, never0.",
+  "normal_reference": "Within-case same-draw bias/empiricalSD and mean reported variance. Descriptive explanation, not out-of-sample calibration.",
+  "matched_diagnostics": "Gaussian reference with common true gap0.05; signal/noise and MSE-equivalent residual sample size; associations noncausal",
+  "selection": "At primary budget development only, minimum equal-state MSE among methods with average95coverage>=.94 and minimumstate>=.90. Report if none; final comparisons all methods retained.",
+  "figure_templates": [
+    "F1 raw/standardized gaps with separate original-ACS replicate intervals; foreign share",
+    "F2 budget curves for reporting yield/conditional error/coverage/width",
+    "F3 gap-to-band noise relation and Gaussian matched reference, plus residual-risk learnability",
+    "F4 final-state method heatmaps vs frozen development-selected mature comparator"
+  ],
+  "fixed_display": "No outcome-selected states, automatic per-panel exaggerating axis crops or hidden failed methods. All16methods in source tables; compact main panels use frozen development selection.",
+  "benchmarks": "Compare same-method same-state paired draw squared errors. MC intervals are conditional simulation precision, not population confidence intervals.",
+  "tests": {
+    "zero_claim_missing": true,
+    "zero_errors_positive_upper_bound": true
+  },
+  "oracle_diagnostic": "Within-fixed-group oracle stratified variances, nondeployable full-target-label diagnostic only",
+  "matched_ESS_calipers": {
+    "gap_absolute": 0.02,
+    "expected_SRS_foreign_Kish_ESS_ratio": [
+      0.8,
+      1.25
+    ],
+    "different_states": true,
+    "all_qualifying_pairs": true,
+    "no_fallback_if_none": true
+  },
+  "primary_contrasts": [
+    "frozen mature comparator versus SRS_HGB",
+    "development-selected learned-risk bundle versus frozen mature comparator"
+  ],
+  "allocation_only_contrasts": [
+    "CPS_RF versus CPS_working",
+    "CPS_RF_GREG versus CPS_working_GREG"
+  ]
+}

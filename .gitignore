@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv*/
+reproduced*/
+raw_downloads/
+*.pkl
+*.log

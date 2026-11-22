@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this versioned code and aggregate-data release."
+title: "Population information and reliable reporting of educational attainment gaps"
+type: software
+version: 1.0.0
+date-released: 2026-11-22
+authors:
+  - family-names: Liao
+    given-names: Runqing
+    affiliation: "School of Mathematics and Statistics, Hanshan Normal University, Chaozhou 521041, China"
+  - family-names: Wang
+    given-names: Zhining
+    affiliation: "School of Mathematics and Statistics, Hanshan Normal University, Chaozhou 521041, China"
+repository-code: "https://github.com/liaorunqing/education-gap-reporting"
+url: "https://github.com/liaorunqing/education-gap-reporting/releases/tag/v1.0.0"
+license: MIT
+keywords: [educational attainment, nativity, survey sampling, reporting uncertainty]
+abstract: "Conditional household-sampling benchmark using public ACS respondent frames. This release exposes scientific implementation, aggregate source tables and saved simulation-level estimates. It does not validate field costs, current auxiliary-roster availability or causal educational-inequality mechanisms."

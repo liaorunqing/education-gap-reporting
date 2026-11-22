@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "public_files_built_by_allowlist": true,
+  "source_metadata_files": 83,
+  "respondent_arrays_distributed": false,
+  "trained_pickles_distributed": false,
+  "HTTP_headers_distributed": false,
+  "saved_draw_files": 24,
+  "NPZ_fields_whitelisted": [
+    "CPS_GREG_ranks",
+    "GREG_cell_ranks",
+    "count",
+    "freeze_sha256",
+    "m",
+    "methods",
+    "point",
+    "resources",
+    "seed",
+    "state",
+    "truth",
+    "variance",
+    "year"
+  ],
+  "exact_finite_population_checks": true,
+  "point_interval_rows_checked": 768,
+  "point_interval_metrics": [
+    "MSE",
+    "bias",
+    "MAE",
+    "empirical_SD",
+    "coverage95",
+    "coverage90",
+    "width95",
+    "width90",
+    "mean_estimated_variance"
+  ],
+  "four_v8_tables_byte_identical": true,
+  "raw_source_states_reconstructed": [
+    "ct",
+    "nh",
+    "ia",
+    "ks",
+    "al",
+    "sc",
+    "az",
+    "co"
+  ],
+  "raw_reconstruction_scope": "Counts and raw/standardized gap only; not original survey replicate SE or model retraining",
+  "secret_and_identifier_pattern_hits": [],
+  "full_raw_to_training_pipeline_newly_reproduced": false,
+  "independent_new_holdout": false,
+  "field_roster_verified": false
+}

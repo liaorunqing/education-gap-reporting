@@ -1,0 +1,25 @@
+{
+  "title": "Population information and reliable reporting of educational attainment gaps: code and aggregate data",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "publication_date": "2026-11-22",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Liao, Runqing",
+      "affiliation": "School of Mathematics and Statistics, Hanshan Normal University"
+    },
+    {
+      "name": "Wang, Zhining",
+      "affiliation": "School of Mathematics and Statistics, Hanshan Normal University"
+    }
+  ],
+  "description": "Scientific code (MIT) and author-generated aggregate results/documentation (CC BY 4.0; see LICENSE-DATA). No respondent-level records, credentials, trained pickles or third-party PDFs are included. Funding: NSFC No. 12271132; Department of Education of Guangdong Province No. 2024ZDZX1027. No peer-reviewed publication or Zenodo DOI is claimed.",
+  "keywords": [
+    "education",
+    "demography",
+    "survey sampling",
+    "reproducibility"
+  ]
+}

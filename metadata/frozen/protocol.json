@@ -1,0 +1,218 @@
+{
+  "utc": "2026-11-20T17:10:35.968633+00:00",
+  "question": "When can limited household samples support reliable reports of nativity educational-attainment gaps?",
+  "target_journal": "HSSC; substantive education measurement application, no required ML win",
+  "development_pairs": [
+    [
+      2022,
+      "ct"
+    ],
+    [
+      2022,
+      "nh"
+    ],
+    [
+      2022,
+      "ia"
+    ],
+    [
+      2022,
+      "ks"
+    ],
+    [
+      2022,
+      "al"
+    ],
+    [
+      2022,
+      "sc"
+    ],
+    [
+      2022,
+      "az"
+    ],
+    [
+      2022,
+      "co"
+    ],
+    [
+      2023,
+      "ct"
+    ],
+    [
+      2023,
+      "nh"
+    ],
+    [
+      2023,
+      "ia"
+    ],
+    [
+      2023,
+      "ks"
+    ],
+    [
+      2023,
+      "al"
+    ],
+    [
+      2023,
+      "sc"
+    ],
+    [
+      2023,
+      "az"
+    ],
+    [
+      2023,
+      "co"
+    ],
+    [
+      2024,
+      "ma"
+    ],
+    [
+      2024,
+      "pa"
+    ],
+    [
+      2024,
+      "il"
+    ],
+    [
+      2024,
+      "mn"
+    ],
+    [
+      2024,
+      "ga"
+    ],
+    [
+      2024,
+      "va"
+    ],
+    [
+      2024,
+      "ca"
+    ],
+    [
+      2024,
+      "wa"
+    ]
+  ],
+  "confirmation_pairs": [
+    [
+      2024,
+      "ct"
+    ],
+    [
+      2024,
+      "nh"
+    ],
+    [
+      2024,
+      "ia"
+    ],
+    [
+      2024,
+      "ks"
+    ],
+    [
+      2024,
+      "al"
+    ],
+    [
+      2024,
+      "sc"
+    ],
+    [
+      2024,
+      "az"
+    ],
+    [
+      2024,
+      "co"
+    ]
+  ],
+  "confirmation_regions": {
+    "ct": "Northeast",
+    "nh": "Northeast",
+    "ia": "Midwest",
+    "ks": "Midwest",
+    "al": "South",
+    "sc": "South",
+    "az": "West",
+    "co": "West"
+  },
+  "minimum_confirmation_states": 6,
+  "minimum_regions": 3,
+  "population": "Released positive-PWGTP adults AGE>=25 in HU serials only; GQ excluded and coverage disclosed; no recovered Census PSU claim",
+  "outcome": "SCHL>=21; released label, not independently verified degree",
+  "standardization": "6 age/SEX cells, age25-39/40-59/60+; q fixed from equal-nativity pooled2022development weighted composition",
+  "budgets": [
+    300,
+    1000,
+    3000
+  ],
+  "primary_budget": 1000,
+  "draws": 2000,
+  "seed": 739,
+  "strata": "any_foreign x any_age60plus x adult_count>1, eight background-only strata",
+  "estimand": "foreign minus native standardized BA+ gap; fixed q and current background denominators; raw gap secondary",
+  "information": "Entire released demographic/household background and weights assumed known; current unsampled education hidden to policies",
+  "point_predictor": "Frozen2017 national_large_739 HGB and2017 full-source state-cell historical control",
+  "risk_learners": {
+    "RF": {
+      "n_estimators": 200,
+      "min_samples_leaf": 20,
+      "max_features": 1.0,
+      "random_state": 739
+    },
+    "HGB": {
+      "max_iter": 200,
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 20,
+      "l2_regularization": 1,
+      "early_stopping": false,
+      "random_state": 739,
+      "loss": "poisson"
+    }
+  },
+  "risk_training": "2022 complete households; five household-level folds for diagnostics;2023and seen2024 validation, no target2024Y",
+  "reporting": {
+    "primary_ci": 0.95,
+    "primary_tau": 0.02,
+    "sensitivity_tau": [
+      0.01,
+      0.05
+    ],
+    "categories": [
+      "advantage_above_tau",
+      "disadvantage_below_minus_tau",
+      "within_reporting_band",
+      "unresolved"
+    ]
+  },
+  "metrics": [
+    "MSE",
+    "bias",
+    "MAE",
+    "90/95coverage",
+    "width",
+    "claim_rate",
+    "wrong_claim_per_attempt",
+    "wrong_given_claim",
+    "statewise_and_equal_state_MCSE"
+  ],
+  "inference": "Conditional repeated-sampling finite released frame; original ACS replicate-weight uncertainty separate",
+  "no_claims": [
+    "new algorithm from combining known methods",
+    "causal education mechanism",
+    "actual monetary savings",
+    "unseen calendar year/country/geography"
+  ],
+  "final_gate": "All code/models/predictions/analysis and figure rules frozen and numerical checks passed before final label parse; single scored final evaluation",
+  "methods_details": "Follow-up implementation contract must be frozen before final scoring; development changes logged",
+  "data_version": "Current official standard1-year files, retrospective latest-vintage, not as-of historical releases"
+}

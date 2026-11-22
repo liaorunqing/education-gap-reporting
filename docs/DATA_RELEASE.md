@@ -1,0 +1,13 @@
+# Data and privacy scope
+
+The public input is Census ACS PUMS, whose [official description](https://www.census.gov/programs-surveys/acs/microdata.html) explains its disclosure protection. The original files remain at Census. This repository republishes no respondent rows, household linkage keys, SERIALNO/SPORDER identifiers, contact records, addresses or private data. It adds no person-level external linkage. It does not assert that all conceivable reidentification risk is zero.
+
+Included CSVs are state-level results, method-comparison summaries, Monte Carlo diagnostics and 12 broad age–sex–nativity cell weighted totals/rates per state. Saved NPZ arrays contain simulated estimates, variances, household/adult counts, ranks, seeds and fixed-frame truths; dimensions correspond to repetitions, methods and endpoints. There are no selected-household indices or measured individual education vectors. Only an explicit NPZ field whitelist is released.
+
+HTTP acquisition headers are omitted, including session cookies. Metadata expose only public URLs, file sizes, checksums and acquisition dates. The historical all-files archive is not an appropriate public-upload object: it contains respondent-derived arrays and operational request metadata. Unchanged historical records are preserved locally; the public release is built by allowlist. Public source code contains field names used to read public inputs; those are not respondent records.
+
+Author names, affiliation and corresponding-author email are intentional publication metadata supplied by the authors. No other email/contact list is shared. External papers and UKHLS documents are cited, not redistributed. Neither restricted UKHLS participant data nor confidential Census records were accessed in this study.
+
+Code is MIT; author-generated aggregate data/documentation are CC BY 4.0. These terms do not relicense third-party content or underlying public facts. The applicable original source terms remain relevant, including the Census prohibition on identification/linkage that identifies respondents. The [Census API terms](https://www.census.gov/data/developers/about/terms-of-service.html) describe those safeguards; this study acquired PUMS files through the official file service rather than claiming the API as its numerical source.
+
+Ethics statement supplied by the authors for this study: ethical approval was not required for secondary analysis of publicly available, de-identified data without new recruitment, contact or identifiable linkage. No institutional approval, exemption number or external committee decision is claimed. This statement concerns this research use; it does not remove ethical duties for a future panel implementation or new identifiable collection.

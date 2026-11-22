@@ -1,0 +1,9 @@
+Supplementary Data 1
+The source_table column identifies the original table. A single combined CSV preserves all columns; blanks for a column absent from a particular table are structural, not imputed zeros. Clean per-table CSVs are supplied in Source_data_tables.zip.
+Primary endpoint is standardized; raw is secondary. m counts eligible residential units. R counts conditional sampling repetitions. State codes refer to the eight purposive confirmation states.
+Point gaps, truth, interval widths and tau use proportions; multiply by100 for percentage points. MSE uses squared proportions; multiply by10000 for squared percentage points. Coverage, yields and error fractions are proportions. Relative gains ending in percent are percentages. Label counts count adults, not costs.
+claim_count includes correct and incorrect non-unresolved categories. wrong_given_claim is undefined if there are no reports. correct_yield=(claim_count-wrong_count)/R. Monte Carlo intervals concern the conditional experiment, not national geographic generalization.
+Population_context refers to the fixed weighted household respondent frames. ACS replicate SE describes original-survey uncertainty and is separate from the additional-sampling intervals. JSON-encoded cell totals/means remain in their source units. Gaussian references use same-case moments and are descriptive.
+Foreign-born and age60+ shares in Figure1 use released person weights. The mixed-nativity-household fraction is an unweighted proportion of eligible housing units, not a weighted resident share.
+All original16methods, both endpoints, all3budgets and original1/2/5pp resolutions remain in the source tables. New correct-yield additions are post-score descriptive analyses, not a new holdout.
+The matched_gap_and_reference_ESS table has no eligible rows under its unchanged calipers; its header-only CSV is retained in the clean-table ZIP. This is not missing values filled with zero.

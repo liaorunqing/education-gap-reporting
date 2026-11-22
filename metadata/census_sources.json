@@ -1,0 +1,674 @@
+[
+  {
+    "filename": "2017_ak",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pak.zip",
+    "sha256": "8e642680a6c013344554490dc4dfda5a3c6e8fcb84d1924792c69e27aa300066",
+    "bytes": 1416127,
+    "retrieved_utc": "2026-11-17T03:00:25.740239+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_al",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pal.zip",
+    "sha256": "dc7c1ccfece478ba74813b7ba27d03abbd975751a6b91da01fb8ee39d6514896",
+    "bytes": 9420545,
+    "retrieved_utc": "2026-11-17T03:00:22.300163+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ar",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_par.zip",
+    "sha256": "bff334e2abb688947a70118f8c4db3f3091baca23125637f6864f80d4e10bff6",
+    "bytes": 5982216,
+    "retrieved_utc": "2026-11-17T03:00:30.448147+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_az",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_paz.zip",
+    "sha256": "59da83205dbe579523500441d604a0001649e955365275d4bf0cabcf64dd9435",
+    "bytes": 13602244,
+    "retrieved_utc": "2026-11-17T03:00:27.345450+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ca",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pca.zip",
+    "sha256": "d28c43dabd5fdc0abcba3d0941101bf6eceda4a84c1bdd269982adb8b89d6617",
+    "bytes": 74948023,
+    "retrieved_utc": "2026-11-17T03:00:32.371903+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_co",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pco.zip",
+    "sha256": "0f046163e729bd27f579c0e2acebb97b704c59587dff8e991f55aee9cc1dab05",
+    "bytes": 11099009,
+    "retrieved_utc": "2026-11-17T03:00:42.545187+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ct",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pct.zip",
+    "sha256": "f91dc767e39dfd917310e4ae7051e1c0bed177e444e6e17d5be424e993da5bc2",
+    "bytes": 7187642,
+    "retrieved_utc": "2026-11-17T03:00:45.065784+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_dc",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pdc.zip",
+    "sha256": "9fd1c547c1c309d9f030c987704540e897ad2bbea9dc4e842a32f5aa4ed19b5f",
+    "bytes": 1420986,
+    "retrieved_utc": "2026-11-17T03:00:46.879747+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_de",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pde.zip",
+    "sha256": "32a0f7a89b1dd363148a6a37fa177ea474565e02e20c00e72adf1b68f292932a",
+    "bytes": 1874029,
+    "retrieved_utc": "2026-11-17T03:00:00.867803+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_fl",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pfl.zip",
+    "sha256": "1f65677eb653892eec5c1ab0b2cdab2ca2da5d4b27a0a274ecd30b75bcb7e094",
+    "bytes": 39929903,
+    "retrieved_utc": "2026-11-17T03:00:48.827615+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ga",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pga.zip",
+    "sha256": "d972c54edc66065f49cf63d59f60f5d8948122b5f840f387cadf091688fc9c61",
+    "bytes": 19843147,
+    "retrieved_utc": "2026-11-17T03:00:57.523096+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_hi",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_phi.zip",
+    "sha256": "8c88466dba117d584fcc92c0f501b378f4bf85e5aafe336c5726b5a128d90c73",
+    "bytes": 2969191,
+    "retrieved_utc": "2026-11-17T03:01:00.837062+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ia",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pia.zip",
+    "sha256": "e66e5e998081af1e6f4995ca3c98afcb816a5e297b90f3daf4b885dfde27a510",
+    "bytes": 6397599,
+    "retrieved_utc": "2026-11-17T03:01:11.544194+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_id",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pid.zip",
+    "sha256": "639d5bd4677cd49f19d23d00247d0dea9ca7954956916f8036067f9ff33371c2",
+    "bytes": 3342891,
+    "retrieved_utc": "2026-11-17T03:01:02.669758+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_il",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pil.zip",
+    "sha256": "f4b26022b1012f82a47842df2d18b45930d22ff0f2a961033810cdf15c682694",
+    "bytes": 24996327,
+    "retrieved_utc": "2026-11-17T03:01:04.287761+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_in",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pin.zip",
+    "sha256": "fe92b2b6405f3be933aac270dbf9a667ff1da11d2ef7402eec85aac55826960d",
+    "bytes": 13195413,
+    "retrieved_utc": "2026-11-17T03:01:08.506482+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ks",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pks.zip",
+    "sha256": "40eea26c8a09f15d421b93d1d64a514067e242de2bcae99b563875c06457d526",
+    "bytes": 5861266,
+    "retrieved_utc": "2026-11-17T03:01:13.386806+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ky",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pky.zip",
+    "sha256": "3b36315404a7517387ab70da9a36d43937fe573501545a98b6faabc1399bd4da",
+    "bytes": 8902743,
+    "retrieved_utc": "2026-11-17T03:01:15.633181+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_la",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pla.zip",
+    "sha256": "16be8dc8a6a8f626c30a167d37aa5f4e2aaef519eaece43878814c392ea6be86",
+    "bytes": 8787088,
+    "retrieved_utc": "2026-11-17T03:01:18.152990+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ma",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pma.zip",
+    "sha256": "9473b33a4cacaf223de376b595f809b808d3ae898b8a50858537686d3ba789c4",
+    "bytes": 13764767,
+    "retrieved_utc": "2026-11-17T03:01:23.754733+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_md",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pmd.zip",
+    "sha256": "361781d98f44b1337e9350641cb78e396d2b4a3a113e87ea9d61d76c407c1961",
+    "bytes": 11920027,
+    "retrieved_utc": "2026-11-17T03:01:21.563787+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_me",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pme.zip",
+    "sha256": "0332ea65a7f43e8acf2d6dc4ed3d12577250a6e8670b34040bc36cce647c5ca4",
+    "bytes": 2600440,
+    "retrieved_utc": "2026-11-17T03:01:20.156347+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_mi",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pmi.zip",
+    "sha256": "25af0e36132c36e43a2a98bae19a7309b0f1bcb681d0d475f0111d9476512438",
+    "bytes": 19544083,
+    "retrieved_utc": "2026-11-17T03:01:26.176741+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_mn",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pmn.zip",
+    "sha256": "8fdb2dc1c21ddc9fde91658bd85433e993b7e74f109cc34bb94de2f3738693e3",
+    "bytes": 10869117,
+    "retrieved_utc": "2026-11-17T03:01:30.129386+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_mo",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pmo.zip",
+    "sha256": "142a22cf144fcce484c71eb6b84d45b5aadc0ea901054609491eb296e5f7de3a",
+    "bytes": 12200916,
+    "retrieved_utc": "2026-11-17T03:01:34.573113+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ms",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pms.zip",
+    "sha256": "73c6e2e53f1413eee575c35ab40167bf658299ef160d55913b4edd3b19eb23f1",
+    "bytes": 5773002,
+    "retrieved_utc": "2026-11-17T03:01:32.648979+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_mt",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pmt.zip",
+    "sha256": "eaed6982269066fc63537e1ec2bf4e49bf3d901324d34bb239ef3eb00c467a0e",
+    "bytes": 2127568,
+    "retrieved_utc": "2026-11-17T03:01:36.943199+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_nc",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pnc.zip",
+    "sha256": "1edd3e590f3b21c2742056cb7b09e9a71e358ed4b441cf558de9291d8b610c77",
+    "bytes": 20062313,
+    "retrieved_utc": "2026-11-17T03:01:53.879372+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_nd",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pnd.zip",
+    "sha256": "a3f54aa7c524fd61e8b5c3723ca8e46e3cac8ba22fe70f2cddd551918c03c9f1",
+    "bytes": 1622669,
+    "retrieved_utc": "2026-11-17T03:01:57.194344+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ne",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pne.zip",
+    "sha256": "5a8abafadbd642723695624b88e93bbb83528ea7ce3ccc8d522b64277232dff8",
+    "bytes": 3910899,
+    "retrieved_utc": "2026-11-17T03:01:38.363836+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_nh",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pnh.zip",
+    "sha256": "86a3725677c6d192a99163bea51680fd3fcc53fa5de2f3d55192c7986e31b5a0",
+    "bytes": 2794016,
+    "retrieved_utc": "2026-11-17T03:01:41.200146+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_nj",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pnj.zip",
+    "sha256": "64c361f86a4209b6502b2d9bce225b5cd59241ac76126ced5f25c2fee358ebb1",
+    "bytes": 17661116,
+    "retrieved_utc": "2026-11-17T03:01:42.812361+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_nm",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pnm.zip",
+    "sha256": "f0466f3a97ca18258a0ab699c0e61a89ed53d957950b45d136171c3fd04802f7",
+    "bytes": 3907874,
+    "retrieved_utc": "2026-11-17T03:01:45.901311+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_nv",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pnv.zip",
+    "sha256": "db2d20ca49093cda2bcb2c11fe5f8bac081da15f8ec92973a33a4b82f8176941",
+    "bytes": 5747692,
+    "retrieved_utc": "2026-11-17T03:01:39.783990+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ny",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pny.zip",
+    "sha256": "4f67ed6b4d7734096da3f44482eeb173bd3e5ddfb398e3c2a83b5703ee77e064",
+    "bytes": 39098677,
+    "retrieved_utc": "2026-11-17T03:01:48.173089+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_oh",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_poh.zip",
+    "sha256": "0549c3d081622a712f2097b8ff055b3cc3c9c3597e4d5809477b5c0ad23325c0",
+    "bytes": 23229237,
+    "retrieved_utc": "2026-11-17T03:01:59.384252+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ok",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pok.zip",
+    "sha256": "22e00029e37ae3378e4a05ba9153a7e5b3c4081091bea7c45f94836769a3a18d",
+    "bytes": 7423997,
+    "retrieved_utc": "2026-11-17T03:02:03.235796+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_or",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_por.zip",
+    "sha256": "6d716cff7529877a6fcca3b0d80280e7acc07aa9e4ecb7a98aecd7ad4fb888ed",
+    "bytes": 8270884,
+    "retrieved_utc": "2026-11-17T03:02:05.219734+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_pa",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_ppa.zip",
+    "sha256": "184aa92904c07d36591bddb85047b841c7b8d9a53019bc0d2fbc7f9621f5e823",
+    "bytes": 24991661,
+    "retrieved_utc": "2026-11-17T03:02:07.075962+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ri",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pri.zip",
+    "sha256": "4c44b76dec86656dec5fe1fad5807a000b6b273d81008ef8c11ef2e60c90d51b",
+    "bytes": 2198780,
+    "retrieved_utc": "2026-11-17T03:00:00.976807+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_sc",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_psc.zip",
+    "sha256": "86c3eb4a85d27f57bae8d12d4c534bd7f6d08b7ff347c7973af2f0e9aef248c4",
+    "bytes": 9814620,
+    "retrieved_utc": "2026-11-17T03:02:11.149892+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_sd",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_psd.zip",
+    "sha256": "15f45dc543d3f088678d09e592be6aa09ccbaee873f5188cbaf142deadff16cb",
+    "bytes": 1816795,
+    "retrieved_utc": "2026-11-17T03:02:13.408683+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_tn",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_ptn.zip",
+    "sha256": "c0f92813a5fe963abacb66101fd48a11e4a2c264e3af87386178c33a666dd8e6",
+    "bytes": 13184954,
+    "retrieved_utc": "2026-11-17T03:02:16.033998+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_tx",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_ptx.zip",
+    "sha256": "baf70780407f7f1543db4d2142e5e54af397e1b7b57ad7ad3c44b961db86c386",
+    "bytes": 52517274,
+    "retrieved_utc": "2026-11-17T03:02:18.511707+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_ut",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_put.zip",
+    "sha256": "e1a7f8eb180bcb01761769f75a8fc949979888f9ad2e8371fb91968189a5da13",
+    "bytes": 5987372,
+    "retrieved_utc": "2026-11-17T03:02:26.447114+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_va",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pva.zip",
+    "sha256": "fa876f917a1f4adff0e0a856f798e62ac6511eaa2f27372bd36b66d0ce792a66",
+    "bytes": 16923562,
+    "retrieved_utc": "2026-11-17T03:02:29.346188+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_vt",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pvt.zip",
+    "sha256": "b6da4235ae45e0975136ca930ed9be4f0e2d2b92efc42a91a482fbb93207b4e4",
+    "bytes": 1356509,
+    "retrieved_utc": "2026-11-17T03:02:28.242689+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_wa",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pwa.zip",
+    "sha256": "bb7a7923f9c3d52bb4c1670fa92811e84c86373e5c4685394d7dae437f89fcd6",
+    "bytes": 14830086,
+    "retrieved_utc": "2026-11-17T03:02:32.957966+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_wi",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pwi.zip",
+    "sha256": "395cfcd9010ae8c122277e55f03ab1288b241042659527b2c0dfd4545b958b9e",
+    "bytes": 11542537,
+    "retrieved_utc": "2026-11-17T03:02:37.436892+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_wv",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pwv.zip",
+    "sha256": "c08aacf6cf1e15c8da74d783340db8fb964c74f75c2a1604301ecc6a79444ffe",
+    "bytes": 3574562,
+    "retrieved_utc": "2026-11-17T03:02:35.623020+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2017_wy",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2017/1-Year/csv_pwy.zip",
+    "sha256": "eb9c4781811d2255c122c0091e6a3d03c7ed74079d0d227e2bd9930e075571ac",
+    "bytes": 1258039,
+    "retrieved_utc": "2026-11-17T03:02:40.003746+00:00",
+    "reference_year": 2017
+  },
+  {
+    "filename": "2022_al",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/csv_pal.zip",
+    "sha256": "959686d919d1982ce36675bd8437f150b7b87d0bd8937c5ca6bbfc5bcf5079be",
+    "bytes": 9093168,
+    "retrieved_utc": "2026-11-17T03:02:47.822066+00:00",
+    "reference_year": 2022
+  },
+  {
+    "filename": "2022_az",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/csv_paz.zip",
+    "sha256": "2ee6a138a126258a2b1990c15446387a8435601062e44287aa54729372855194",
+    "bytes": 13102076,
+    "retrieved_utc": "2026-11-17T03:02:53.442289+00:00",
+    "reference_year": 2022
+  },
+  {
+    "filename": "2022_co",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/csv_pco.zip",
+    "sha256": "3c0ceeb6e240451152b785b77f295c0d6024b284df5b7cee33fd22ee50d81f40",
+    "bytes": 10685096,
+    "retrieved_utc": "2026-11-17T03:02:56.087145+00:00",
+    "reference_year": 2022
+  },
+  {
+    "filename": "2022_ct",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/csv_pct.zip",
+    "sha256": "88c7950c43999db171aa51fd49b2525abf7f2c9a9eeb42ae635821316f435a51",
+    "bytes": 6733791,
+    "retrieved_utc": "2026-11-17T03:02:41.406834+00:00",
+    "reference_year": 2022
+  },
+  {
+    "filename": "2022_ia",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/csv_pia.zip",
+    "sha256": "c25e5289d97bfea5949aace2f6be021fb9163c7d79a15114ccf7934c7d01ee5c",
+    "bytes": 5934230,
+    "retrieved_utc": "2026-11-17T03:02:44.526190+00:00",
+    "reference_year": 2022
+  },
+  {
+    "filename": "2022_ks",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/csv_pks.zip",
+    "sha256": "89b70eba81b6686c92db2ad011daa99c8f3e4f9f67338c22a15ae3a7f3fc0889",
+    "bytes": 5381677,
+    "retrieved_utc": "2026-11-17T03:02:46.108670+00:00",
+    "reference_year": 2022
+  },
+  {
+    "filename": "2022_nh",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/csv_pnh.zip",
+    "sha256": "c5991b381922d217e1fe105875dad5b7392726fc79cb059a40310de10e65ac08",
+    "bytes": 2635080,
+    "retrieved_utc": "2026-11-17T03:02:43.180841+00:00",
+    "reference_year": 2022
+  },
+  {
+    "filename": "2022_sc",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/csv_psc.zip",
+    "sha256": "d24bc8bab53ed9dd38d6d60f05bafc83c9a8b0fa0aeb8cf33ff4b124d459a5bb",
+    "bytes": 9691522,
+    "retrieved_utc": "2026-11-17T03:02:50.818041+00:00",
+    "reference_year": 2022
+  },
+  {
+    "filename": "2023_al",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_pal.zip",
+    "sha256": "d2a79264641b5b35ffc1e90816ac8ed87b669b7340ca3bc060b2a72f16982bf6",
+    "bytes": 9371826,
+    "retrieved_utc": "2026-11-17T03:03:06.034228+00:00",
+    "reference_year": 2023
+  },
+  {
+    "filename": "2023_az",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_paz.zip",
+    "sha256": "9ade51cc3ae9c8e9c3f93eda4b34a3baab2d2252b5cb2fe172fc5a15176d2a3d",
+    "bytes": 13432999,
+    "retrieved_utc": "2026-11-17T03:03:11.018291+00:00",
+    "reference_year": 2023
+  },
+  {
+    "filename": "2023_co",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_pco.zip",
+    "sha256": "76ae451cdef80b4c7de35d409136910fc2319790eee79fe8e6600febee696858",
+    "bytes": 10918675,
+    "retrieved_utc": "2026-11-17T03:03:13.546468+00:00",
+    "reference_year": 2023
+  },
+  {
+    "filename": "2023_ct",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_pct.zip",
+    "sha256": "1fa903d2d4154939da1972c334bdc6cd65c98437ebbc68b0ad3f796461a13793",
+    "bytes": 6776557,
+    "retrieved_utc": "2026-11-17T03:02:58.248542+00:00",
+    "reference_year": 2023
+  },
+  {
+    "filename": "2023_ia",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_pia.zip",
+    "sha256": "8f3f3153d508ec13b35c7c45bfd8e8a95bfcbb9d0bdb6917f36df06803656389",
+    "bytes": 5970346,
+    "retrieved_utc": "2026-11-17T03:03:02.269847+00:00",
+    "reference_year": 2023
+  },
+  {
+    "filename": "2023_ks",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_pks.zip",
+    "sha256": "99ef5849aa06e8af342dd8147bedb767c596a64a4dcc50fef1b35fbaaf191be9",
+    "bytes": 5514443,
+    "retrieved_utc": "2026-11-17T03:03:04.531284+00:00",
+    "reference_year": 2023
+  },
+  {
+    "filename": "2023_nh",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_pnh.zip",
+    "sha256": "fefd136a02fd85677b2f1367f4966dea0e195b9dcdbe177a951e0ee9551012ac",
+    "bytes": 2771771,
+    "retrieved_utc": "2026-11-17T03:03:00.288165+00:00",
+    "reference_year": 2023
+  },
+  {
+    "filename": "2023_sc",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/csv_psc.zip",
+    "sha256": "18a2567739fa95e1a9943542743e265685f99119321cf2b69ff5b0a555308411",
+    "bytes": 10008522,
+    "retrieved_utc": "2026-11-17T03:03:08.514386+00:00",
+    "reference_year": 2023
+  },
+  {
+    "filename": "2024_al",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pal.zip",
+    "sha256": "e8ba3bb3e949c9d4bcf523ad2924ffa840dfd2ed02e3e1cc3999e993f70de594",
+    "bytes": 9370034,
+    "retrieved_utc": "2026-11-20T17:12:31.805735+00:00",
+    "reference_year": 2024
+  },
+  {
+    "filename": "2024_az",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_paz.zip",
+    "sha256": "6cdaacc565b263734793ca8e06b2b65be8e44368ec9ef8905802e219e791fb03",
+    "bytes": 13370392,
+    "retrieved_utc": "2026-11-20T17:12:56.394881+00:00",
+    "reference_year": 2024
+  },
+  {
+    "filename": "2024_ca",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pca.zip",
+    "sha256": "fa3e473e13b09bb6d9f915c7f5c58b8405a8e48d22c43f30d43055a8a6c52882",
+    "bytes": null,
+    "retrieved_utc": null,
+    "reference_year": 2024,
+    "note": "URL follows official PUMS file convention; bytes/retrieval date not recovered from background audit"
+  },
+  {
+    "filename": "2024_co",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pco.zip",
+    "sha256": "1993da2baad5777d6b2bdfd05220b0845046fffc5d1fc4cc0b809aae471d6ce7",
+    "bytes": 11095418,
+    "retrieved_utc": "2026-11-20T17:13:04.727404+00:00",
+    "reference_year": 2024
+  },
+  {
+    "filename": "2024_ct",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pct.zip",
+    "sha256": "c5869e3738d5c0a84e53ad6c4d9abbc9f910d57ff132a9ce6fa8a60472843534",
+    "bytes": 6794283,
+    "retrieved_utc": "2026-11-20T17:12:06.166085+00:00",
+    "reference_year": 2024
+  },
+  {
+    "filename": "2024_ga",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pga.zip",
+    "sha256": "ac43dcc75a45759ba571cd9ab585eadbd30bf0aca88be2444f92b097bd409e0d",
+    "bytes": null,
+    "retrieved_utc": null,
+    "reference_year": 2024,
+    "note": "URL follows official PUMS file convention; bytes/retrieval date not recovered from background audit"
+  },
+  {
+    "filename": "2024_ia",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pia.zip",
+    "sha256": "1d0b889c4e19401001d86351965aed277999c56609052104960409b9c0b131b3",
+    "bytes": 5918149,
+    "retrieved_utc": "2026-11-20T17:12:15.784964+00:00",
+    "reference_year": 2024
+  },
+  {
+    "filename": "2024_il",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pil.zip",
+    "sha256": "197c1b07c3d95b2d2d62940e1b9db0c96b9c932e4f842262d3e29d382150b849",
+    "bytes": null,
+    "retrieved_utc": null,
+    "reference_year": 2024,
+    "note": "URL follows official PUMS file convention; bytes/retrieval date not recovered from background audit"
+  },
+  {
+    "filename": "2024_ks",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pks.zip",
+    "sha256": "52596bd7c79eba17777cabf23bc4d7534b4873ac2554bcfe6e2002b142e5ad72",
+    "bytes": 5436826,
+    "retrieved_utc": "2026-11-20T17:12:22.550156+00:00",
+    "reference_year": 2024
+  },
+  {
+    "filename": "2024_ma",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pma.zip",
+    "sha256": "bb7d4009feaf8d190d687fc091fc7a56e2aa82b9972ae14a16d4ad70a8e0eef7",
+    "bytes": null,
+    "retrieved_utc": null,
+    "reference_year": 2024,
+    "note": "URL follows official PUMS file convention; bytes/retrieval date not recovered from background audit"
+  },
+  {
+    "filename": "2024_mn",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pmn.zip",
+    "sha256": "74d7237ce11c157b8d97814cc572b335340dacab55c62a1dfe3a24301ce391ef",
+    "bytes": null,
+    "retrieved_utc": null,
+    "reference_year": 2024,
+    "note": "URL follows official PUMS file convention; bytes/retrieval date not recovered from background audit"
+  },
+  {
+    "filename": "2024_nh",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pnh.zip",
+    "sha256": "a8d41ea342b40270060747a86fd5817d801c3eb11cfd16bbfa79c547bac7e561",
+    "bytes": 2627209,
+    "retrieved_utc": "2026-11-20T17:12:09.634581+00:00",
+    "reference_year": 2024
+  },
+  {
+    "filename": "2024_pa",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_ppa.zip",
+    "sha256": "cb32fe6908465935b45943bcd758ee7b67803027ee5ffe67ae11dd4eab702e9a",
+    "bytes": null,
+    "retrieved_utc": null,
+    "reference_year": 2024,
+    "note": "URL follows official PUMS file convention; bytes/retrieval date not recovered from background audit"
+  },
+  {
+    "filename": "2024_sc",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_psc.zip",
+    "sha256": "c8a1df5d364ff2b3228e7db7340546face1b5da5f6569679bf2f8b517f1920c7",
+    "bytes": 10051496,
+    "retrieved_utc": "2026-11-20T17:12:41.249657+00:00",
+    "reference_year": 2024
+  },
+  {
+    "filename": "2024_va",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pva.zip",
+    "sha256": "d9295b9fb1fd0d6ee4127bed168f4155ac3b6266f3b11741194de4f50922f60d",
+    "bytes": null,
+    "retrieved_utc": null,
+    "reference_year": 2024,
+    "note": "URL follows official PUMS file convention; bytes/retrieval date not recovered from background audit"
+  },
+  {
+    "filename": "2024_wa",
+    "url": "https://www2.census.gov/programs-surveys/acs/data/pums/2024/1-Year/csv_pwa.zip",
+    "sha256": "669cd9b43461037303f904e99a77091a24eca715549b6f248c381ec991af136d",
+    "bytes": null,
+    "retrieved_utc": null,
+    "reference_year": 2024,
+    "note": "URL follows official PUMS file convention; bytes/retrieval date not recovered from background audit"
+  }
+]

@@ -1,0 +1,9 @@
+state,year0,year1,raw_gap_change,age_sex_composition_component,within_age_sex_component,scope
+ct,2023,2024,-0.004412089636838118,0.0022433456373507337,-0.006655435274188642,"Descriptive symmetric product decomposition, not a causal mechanism or linked individual change"
+nh,2023,2024,0.01837583707991254,-0.0050496391695949395,0.023425476249507384,"Descriptive symmetric product decomposition, not a causal mechanism or linked individual change"
+ia,2023,2024,-0.021973375096630523,0.004677621035545593,-0.026650996132176166,"Descriptive symmetric product decomposition, not a causal mechanism or linked individual change"
+ks,2023,2024,0.011868213862024912,0.0024451302446165876,0.009423083617407645,"Descriptive symmetric product decomposition, not a causal mechanism or linked individual change"
+al,2023,2024,0.004116149654090531,0.0031907173153218416,0.0009254323387687929,"Descriptive symmetric product decomposition, not a causal mechanism or linked individual change"
+sc,2023,2024,0.020106014744240033,-1.8722470300106464e-05,0.020124737214540098,"Descriptive symmetric product decomposition, not a causal mechanism or linked individual change"
+az,2023,2024,-0.005103977628318324,0.0009891600143671945,-0.00609313764268585,"Descriptive symmetric product decomposition, not a causal mechanism or linked individual change"
+co,2023,2024,0.007135156919455238,-0.000662797663588222,0.007797954583043883,"Descriptive symmetric product decomposition, not a causal mechanism or linked individual change"
