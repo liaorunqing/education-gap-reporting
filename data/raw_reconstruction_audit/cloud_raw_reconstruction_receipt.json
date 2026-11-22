@@ -1,0 +1,115 @@
+{
+  "run_id": 44992938047,
+  "url": "https://github.com/liaorunqing/education-gap-reporting/actions/runs/44992938047",
+  "platform": "windows-latest",
+  "python": "3.12.10",
+  "scope": "CT 2024; 1000 eligible units; 2000 draws; all 16 methods; source/risk models refitted from 60 official ZIPs",
+  "ACS_job_id": 137117762133,
+  "ACS_conclusion": "success",
+  "SIPP_job_id": 137117761965,
+  "SIPP_platform": "ubuntu-latest",
+  "SIPP_conclusion": "success",
+  "source_training_fingerprint": "bd18aa989f65c1388fcc073903f3150b8f9b61de270f08bd6c5072016658de20",
+  "method_differences": [
+    {
+      "method": "SRS_HT",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "SRS_historical_cell",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "SRS_HGB",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "SRS_GREG",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "proportional_HGB",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "Neyman_HGB",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "two_wave_HGB",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "CPS_coarse",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "CPS_RF",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "CPS_HGB",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "CPS_robust_HGB",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "SRS_GREG_cells",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "Neyman_working_fine",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "CPS_working",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "CPS_working_GREG",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    },
+    {
+      "method": "CPS_RF_GREG",
+      "point_max": 0,
+      "variance_max": 0,
+      "resources_exact": true
+    }
+  ],
+  "all_points_and_variances_exact": true,
+  "Linux_all_ACS_refit_parity": false,
+  "Linux_diagnostic_run": 44992364172,
+  "original_results_or_tolerances_changed": false
+}
