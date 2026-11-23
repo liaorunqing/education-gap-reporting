@@ -69,16 +69,17 @@
   },
   "interpretation": "Mature controls may solve the problem; do not select by one favorable metric; no new ML claim, no cost or causal claim",
   "preserved": {
-    "event_support_diagnostics.csv": "7269626c5109a296c23e826e60b7ed61a5ef89be7110a4c3d5831ee12a5bf3fe",
-    "interval_results.csv": "fa1d10237b4e288610a9f07016c3b424dea4412d23f71771f528ff0f1dd3c5b8",
-    "prior_education_retention.csv": "bbdb611771bff4dc2ff0d4cb9dd9523c0514a81b1a4dbf328ea539db863f3a22",
-    "reporting_results.csv": "052171e544197519bd94e1aa30e418d75d40f8d375f6d18de7be79ee670f5664",
-    "all_released_1000_simulation.npz": "5e13e98ded572ff86f0b2a0dca5cd7c06efda7c657eb7701821547eb1f6c2683",
-    "all_released_300_simulation.npz": "4ec80e9485a5a9d15b61c94e12d47aff8f5a1afeff917bc3a425b120e5047a2b",
-    "paired_comparisons.csv": "0719e213d2bed6ca4ac67379e8f91c6fbd5d04171648bb85d8cdef3b583cb471",
-    "point_interval_results.csv": "ec76f93ce665de6b481483df94e2eeed2de8b5966ccc02dc7ed0848e987cd19e",
-    "reported_only_1000_simulation.npz": "64096c10ce57e7656d671989b515e58b7b043468a5f815e8fe21141958a0011c",
-    "reported_only_300_simulation.npz": "7fb34d9231b27463d48dff117b2fc13c6e4a4b1eeccef203fae2b4ce8b69c76a",
-    "scope_and_QA.json": "0c96237aeb0861432e78105a50d97179917f40c61352ff9470530f3957821d91"
+    "outputs/acs_boundaries235_2026-11-22/event_support_diagnostics.csv": "7269626c5109a296c23e826e60b7ed61a5ef89be7110a4c3d5831ee12a5bf3fe",
+    "outputs/acs_boundaries235_2026-11-22/interval_results.csv": "fa1d10237b4e288610a9f07016c3b424dea4412d23f71771f528ff0f1dd3c5b8",
+    "outputs/acs_boundaries235_2026-11-22/prior_education_retention.csv": "bbdb611771bff4dc2ff0d4cb9dd9523c0514a81b1a4dbf328ea539db863f3a22",
+    "outputs/acs_boundaries235_2026-11-22/reporting_results.csv": "f508cce36a96ecbc1834e6684365fd2b3e99a4a748e2561d4d9b7992f2841c50",
+    "outputs/acs_research215_2026-11-22/sipp_pilot/all_released_1000_simulation.npz": "5e13e98ded572ff86f0b2a0dca5cd7c06efda7c657eb7701821547eb1f6c2683",
+    "outputs/acs_research215_2026-11-22/sipp_pilot/all_released_300_simulation.npz": "4ec80e9485a5a9d15b61c94e12d47aff8f5a1afeff917bc3a425b120e5047a2b",
+    "outputs/acs_research215_2026-11-22/sipp_pilot/paired_comparisons.csv": "0719e213d2bed6ca4ac67379e8f91c6fbd5d04171648bb85d8cdef3b583cb471",
+    "outputs/acs_research215_2026-11-22/sipp_pilot/point_interval_results.csv": "ec76f93ce665de6b481483df94e2eeed2de8b5966ccc02dc7ed0848e987cd19e",
+    "outputs/acs_research215_2026-11-22/sipp_pilot/reported_only_1000_simulation.npz": "64096c10ce57e7656d671989b515e58b7b043468a5f815e8fe21141958a0011c",
+    "outputs/acs_research215_2026-11-22/sipp_pilot/reported_only_300_simulation.npz": "7fb34d9231b27463d48dff117b2fc13c6e4a4b1eeccef203fae2b4ce8b69c76a",
+    "outputs/acs_research215_2026-11-22/sipp_pilot/reporting_results.csv": "052171e544197519bd94e1aa30e418d75d40f8d375f6d18de7be79ee670f5664",
+    "outputs/acs_research215_2026-11-22/sipp_pilot/scope_and_QA.json": "0c96237aeb0861432e78105a50d97179917f40c61352ff9470530f3957821d91"
   }
 }
