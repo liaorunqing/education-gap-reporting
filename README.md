@@ -1,6 +1,6 @@
 # Population information and reliable reporting of educational attainment gaps
 
-Code and aggregate-data release **1.1.0** for the manuscript by **Runqing Liao and Zhining Wang**. Corresponding author: Zhining Wang, mathwangzhining@163.com. Both authors: School of Mathematics and Statistics, Hanshan Normal University, Chaozhou 521041, China. The manuscript is in preparation, not a peer-reviewed publication.
+Code and aggregate-data release **1.2.0** for the manuscript by **Runqing Liao and Zhining Wang**. Corresponding author: Zhining Wang, mathwangzhining@163.com. Both authors: School of Mathematics and Statistics, Hanshan Normal University, Chaozhou 521041, China. The manuscript is in preparation, not a peer-reviewed publication.
 
 We ask when finite household samples support a directional or within-band statement about the age–sex standardized BA-or-higher attainment gap between foreign-born and native adults aged 25+. The targets are fixed public ACS household respondent frames, not error-free resident-population truths. Mature allocation was useful; learned risk did not improve it consistently. This is an application and conditions-of-use study, not a new algorithm or causal explanation.
 
@@ -72,7 +72,7 @@ The large allocation gain assumes current linked background information and supp
 
 ## Licence, citation and funding
 
-Code: **MIT**. Author-generated aggregate results, figures and documentation: **CC BY 4.0**, with third-party rights reserved (`LICENSE-DATA`). Underlying Census data retain their original status. This research product is not endorsed or certified by the Census Bureau. Cite `CITATION.cff` and the versioned [GitHub release](https://github.com/liaorunqing/education-gap-reporting/releases/tag/v1.1.0). A Zenodo metadata file is prepared; **no Zenodo deposit or DOI is claimed**.
+Code: **MIT**. Author-generated aggregate results, figures and documentation: **CC BY 4.0**, with third-party rights reserved (`LICENSE-DATA`). Underlying Census data retain their original status. This research product is not endorsed or certified by the Census Bureau. Cite `CITATION.cff` and the versioned [GitHub release](https://github.com/liaorunqing/education-gap-reporting/releases/tag/v1.2.0). A Zenodo metadata file is prepared; **no Zenodo deposit or DOI is claimed**.
 
 This work was supported by the National Natural Science Foundation of China (No. 12271132) and the fund provided by the Department of Education of Guangdong Province, China (No. 2024ZDZX1027).
 
@@ -81,3 +81,24 @@ OpenAI Codex assisted code development, checks and documentation; this does not 
 Timing qualification: the 2024 SIPP public file was released on 24 July 2025, after the February–June 2025 follow-up fieldwork. Earlier-reference final weights are not thereby proven available before selection. Historical responses can precede recontact internally, but this retrospective public-file pilot does not validate an as-of operational extract or preselection availability of final weights. See data/sipp_audit/availability_timing_audit.json.
 
 To regenerate Supplementary Figure S3 from released aggregate CSVs only, run `python scripts/acs226_sipp_figure.py`. Output goes to the ignored `reproduced_figures` directory.
+
+
+## Extension in 1.2.0: interval and membership diagnostics
+
+`python reproduce_extension.py` checks all extension table denominators, collects 20 case summaries, reproduces membership-summary values, and checks finite-population bootstrap conditional moments. This is an audit from saved case summaries, not an independent rerun of their inner bootstrap samples. The original `reproduce.py` still replays the ACS simulation outputs.
+
+Extension inputs/outputs: `data/followup/`, `data/interval_reference/`, `metadata/followup/`. All unfavorable methods, two scopes, two budgets, confidence levels and report resolutions are retained. The original membership plan has 40 rows; 30 additional calibrated controls were fixed after inspecting those results and are explicitly exploratory. The original statements and source archive versions remain frozen.
+
+Full numerical extension after the documented raw SIPP workflow:
+
+```sh
+python scripts/acs223_sipp_reproduce.py --fetch --raw-dir data/raw/sipp --workdir reconstructed_SIPP
+python scripts/acs242_followup_plan.py --pilot-dir reconstructed_SIPP --baseline-dir data/interval_reference --out-dir followup_replay
+python scripts/acs243_bootstrap_intervals.py --pilot-dir reconstructed_SIPP --out-dir followup_replay
+python scripts/acs244_membership_correction.py --pilot-dir reconstructed_SIPP --out-dir followup_replay
+python scripts/acs244_membership_correction.py --pilot-dir reconstructed_SIPP --out-dir followup_replay --strong-sensitivity
+python scripts/acs247_missing_change_sensitivity.py --plan --out-dir followup_replay
+python scripts/acs247_missing_change_sensitivity.py --pilot-dir reconstructed_SIPP --out-dir followup_replay
+```
+
+Choose NEW work directories and keep respondent caches private. Main inner bootstrap size is 999; the first 100 draws per case also use 3,999. Parameters and cases are not searched. Bootstrap is approximate; empirical Bernstein-Serfling bounds concern the fixed retained frame only. No respondent records, trained models or contact information are redistributed. A fresh technical replay plan is not the historical plan's creation date. See `docs/SIPP_QUALITY_AND_INTERPRETATION.md`. No independent population confirmation, identified missing future degrees, field-cost savings or new method is claimed. This release is software and aggregate evidence; it does not publish the draft manuscript or imply final all-author approval.

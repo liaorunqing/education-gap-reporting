@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-22T15:13:55.800394+00:00",
+  "status": "Added after inspecting initial membership results; not a prespecified confirmatory comparison",
+  "reason": "Check whether unnormalized model response weights account for weak IPW/AIPW before attributing failure to all mature correction methods",
+  "methods": [
+    "IPW_cell_normalized",
+    "AIPW_cell_calibrated",
+    "OR_HGB"
+  ],
+  "calibration": "Within each of12 age/sex/nativity cells normalize sum w*R/p to known baseline W_g; no extra fitting or outcome-derived margins",
+  "models_and_splits": "Exactly reuse first-stage model settings, seed739..743 and3 household folds; no retuning; reproduce all40 prior estimates",
+  "limits": "Known-prior-outcome mask only. Cannot identify missing future outcomes, validate MAR or claim new method",
+  "original_results_sha256": "9f54608cdcf2a22617ad8bf9db3f50bd8f3c86ba5a1a94f5517b6710d61fb840"
+}

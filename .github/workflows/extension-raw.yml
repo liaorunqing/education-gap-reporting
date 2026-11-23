@@ -1,0 +1,15 @@
+name: Check extension from raw SIPP
+on: [workflow_dispatch]
+jobs:
+  raw-small-case:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/acs223_sipp_reproduce.py --fetch --raw-dir data/raw/sipp --workdir reconstructed_SIPP
+      - run: python scripts/acs242_followup_plan.py --pilot-dir reconstructed_SIPP --baseline-dir data/interval_reference --out-dir followup_check
+      - run: python scripts/acs243_bootstrap_intervals.py --pilot-dir reconstructed_SIPP --out-dir followup_check --case all_released 300 SRS_prior_BA
+      - run: python reproduce_extension.py --check-case followup_check/intervals/all_released_300_SRS_prior_BA.json

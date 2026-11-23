@@ -1,0 +1,6 @@
+{
+  "original_40_rows_reproduced": true,
+  "original_results_not_overwritten": true,
+  "added_rows": 30,
+  "calibrated_totals": "12 known age/sex/nativity prior-weight margins; normalization uses response indicators and background, no masked education"
+}

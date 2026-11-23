@@ -1,0 +1,93 @@
+{
+  "all_20_cases_complete": true,
+  "interval_rows": 120,
+  "report_rows": 180,
+  "B": 999,
+  "precision_B": 3999,
+  "prior_results_unchanged": true,
+  "design_points_and_variances_reproduced": true,
+  "bootstrap_is_approximate": true,
+  "no_new_original_SIPP_PSU_claim": true,
+  "case_collection": [
+    {
+      "file": "all_released_300_SRS_HT.json",
+      "sha256": "cfad1e0d2a9a23bb358af52183fe24511f6d3297196d515deb5e691bbe3a4902"
+    },
+    {
+      "file": "all_released_300_SRS_prior_cells.json",
+      "sha256": "5395cfbbf3676cb0d54f379f4f59528de0f856db1284088818ff36ac826d189f"
+    },
+    {
+      "file": "all_released_300_SRS_prior_BA.json",
+      "sha256": "0d5f3e1253eb75e4c1b0a3dd89ff07a83db6cde4a4a6e8ffcbfb8a7eb0aea9f1"
+    },
+    {
+      "file": "all_released_300_proportional_prior_BA.json",
+      "sha256": "5d6c5c8ff6db2e9971c9232b5621b1ac274928715dde39db8fc6e94d7435ee15"
+    },
+    {
+      "file": "all_released_300_working_Neyman_prior_BA.json",
+      "sha256": "b5f42b7d5512d6b71a264fe6f10a498d916ee5d6e1c02ac3f793db95a112d2bb"
+    },
+    {
+      "file": "all_released_1000_SRS_HT.json",
+      "sha256": "eb5a8b36500141489112b15f25a6a297291d3bba8535d78a292ee39514161aab"
+    },
+    {
+      "file": "all_released_1000_SRS_prior_cells.json",
+      "sha256": "26a2802d376ea2130ada8ac4e11d25a8c2b2eaf6789ef991afcad5007d732949"
+    },
+    {
+      "file": "all_released_1000_SRS_prior_BA.json",
+      "sha256": "550db249fff254249db52697381454aeb05db0514a4ea9ef76f7ed48b96959bf"
+    },
+    {
+      "file": "all_released_1000_proportional_prior_BA.json",
+      "sha256": "247208a064f621ad1280d76261ea6260bac8708605f36fd95c6dc07610c6eaee"
+    },
+    {
+      "file": "all_released_1000_working_Neyman_prior_BA.json",
+      "sha256": "94d0f0073135ff4096507bf01b3ada1ba07a047150dccd809235942bc4b2770f"
+    },
+    {
+      "file": "reported_only_300_SRS_HT.json",
+      "sha256": "14cade7d27cc86c31010ced80ecbce6e87470f011a184c81a2be0833a2e7ac08"
+    },
+    {
+      "file": "reported_only_300_SRS_prior_cells.json",
+      "sha256": "669a7afeea2dd6de42fd81ab35ceae4255086f4326e0ea388f617fed42b57e78"
+    },
+    {
+      "file": "reported_only_300_SRS_prior_BA.json",
+      "sha256": "27bccdee51d0bc8c7a4d0bbcfa5ae23665204d8b4588ec58542d03dd9f70629b"
+    },
+    {
+      "file": "reported_only_300_proportional_prior_BA.json",
+      "sha256": "a736a9c8e383024b219018525937c09b8f3581b9c887b18755ab5fae185b23db"
+    },
+    {
+      "file": "reported_only_300_working_Neyman_prior_BA.json",
+      "sha256": "f92b075c4a66828a7d2329164986cb2cce8ce4f3108f511d83112787cfd4aa28"
+    },
+    {
+      "file": "reported_only_1000_SRS_HT.json",
+      "sha256": "a09b5ef0c7e405210cff72456515a8499c166dea42c98cad181a6b0690ea8da1"
+    },
+    {
+      "file": "reported_only_1000_SRS_prior_cells.json",
+      "sha256": "98b3f4a07efe7e365b07a0aeace97b2bcf63b669bba24d92860050a0e7be4800"
+    },
+    {
+      "file": "reported_only_1000_SRS_prior_BA.json",
+      "sha256": "284998743b38cfe428988a5e2d25ce1a7386360f80c3d066a5b42cc9b368cf47"
+    },
+    {
+      "file": "reported_only_1000_proportional_prior_BA.json",
+      "sha256": "065ec5d7cb6f0628bbdf28593cda90fb8267c8b10281689fb39be2bcb1995b65"
+    },
+    {
+      "file": "reported_only_1000_working_Neyman_prior_BA.json",
+      "sha256": "c8d201b74e067b1aaa6e3649ae7b6d48f9271e82fe1a29313dc928aa79ff0811"
+    }
+  ]
+}

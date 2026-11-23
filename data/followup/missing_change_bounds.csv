@@ -1,0 +1,7 @@
+max_missing_prior_weight_change_fraction,lower,upper,carry_forward,all_above_zero,all_above_2pp,interpretation
+0.0,0.0353367689792528,0.0353367689792528,0.0353367689792528,True,True,Assumption-dependent outer bounds; not confidence limits or verified resident effects
+0.01,0.02607591878420309,0.04459761917430251,0.0353367689792528,True,True,Assumption-dependent outer bounds; not confidence limits or verified resident effects
+0.02,0.01681506858915339,0.05385846936935221,0.0353367689792528,True,False,Assumption-dependent outer bounds; not confidence limits or verified resident effects
+0.05,-0.010681701649243175,0.08164101995450135,0.0353367689792528,False,False,Assumption-dependent outer bounds; not confidence limits or verified resident effects
+0.1,-0.05438272228758336,0.12580988276571337,0.0353367689792528,False,False,Assumption-dependent outer bounds; not confidence limits or verified resident effects
+1.0,-0.3756465084865913,0.39459784611710214,0.0353367689792528,False,False,Assumption-dependent outer bounds; not confidence limits or verified resident effects

@@ -1,0 +1,54 @@
+{
+  "audit_date": "2026-11-22",
+  "primary_method_sources": [
+    {
+      "title": "Rescaled bootstrap for stratified multistage sampling",
+      "author": "John Preston",
+      "year": 2009,
+      "journal": "Survey Methodology",
+      "volume": 35,
+      "issue": 2,
+      "pages": "227-234",
+      "url": "https://www150.statcan.gc.ca/n1/pub/12-001-x/2009002/article/11044-eng.pdf",
+      "implementation_scope": "Single-stage stratified SRSWOR special case; floor(n/2) within each sampled stratum, nonnegative weights. Does not reproduce original SIPP multistage PSUs."
+    },
+    {
+      "title": "Rao-Wu Bootstrap in surveysd",
+      "url": "https://cran.r-project.org/web/packages/surveysd/vignettes/raowu.html",
+      "scope": "Official package formula checked; n-1 with-replacement rescaled bootstrap is a sensitivity, not preferred for all large-fraction strata."
+    },
+    {
+      "title": "Concentration inequalities for sampling without replacement",
+      "authors": "Bardenet and Maillard",
+      "year": 2015,
+      "doi": "10.3150/14-BEJ605",
+      "url": "https://arxiv.org/abs/1309.4029",
+      "scope": "Theorem4.3; empirical SD denominator n; one-sided failure5delta; two-sided stratified union uses delta=alpha/(10J)."
+    },
+    {
+      "title": "Doubly Robust Estimation in Missing Data and Causal Inference Models",
+      "authors": "Bang and Robins",
+      "year": 2005,
+      "doi": "10.1111/j.1541-0420.2005.00377.x",
+      "url": "https://academic.oup.com/biometrics/article-abstract/61/4/962/7296220",
+      "scope": "Attribution for mature AIPW principle. Double robustness does not validate missing-at-random, positivity or this implementation under unrestricted nonresponse."
+    }
+  ],
+  "external_validation": [
+    {
+      "candidate": "SIPP next public wave",
+      "url": "https://www.census.gov/programs-surveys/sipp/data/datasets.html",
+      "observed": "Official index lists2018-2025 and links2025;2024/2025 are already used here.",
+      "status": "No executable unopened next wave established; no new external numerical evaluation conducted."
+    },
+    {
+      "candidate": "National Longitudinal Surveys public cohorts",
+      "url": "https://www.nlsinfo.org/content/access-data-investigator/investigator-user-guide",
+      "observed": "BLS-backed data extraction and codebook interface exist.",
+      "status": "Candidate only. Variables, cohort-specific target, prior access and suitable follow-up labels not yet audited; no microdata acquired or labels evaluated. Cannot call it validated or directly interchangeable with all-adult SIPP."
+    }
+  ],
+  "not_a_systematic_literature_review": true,
+  "independent_external_confirmation_completed": false,
+  "third_party_PDFs_redistributed": false
+}

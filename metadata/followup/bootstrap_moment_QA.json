@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "fraction": 0,
+      "target_conditional_variance": 0.11111111111111112,
+      "Preston_exact_variance": 0.11111111111111112,
+      "RW_exact_variance": 0.1111111111111111
+    },
+    {
+      "fraction": 0.1,
+      "target_conditional_variance": 0.10000000000000002,
+      "Preston_exact_variance": 0.09999999999999999,
+      "RW_exact_variance": 0.09999999999999999
+    },
+    {
+      "fraction": 0.7,
+      "target_conditional_variance": 0.03333333333333334,
+      "Preston_exact_variance": 0.03333333333333334,
+      "RW_exact_variance": 0.03333333333333334
+    },
+    {
+      "fraction": 1,
+      "target_conditional_variance": 0.0,
+      "Preston_exact_variance": 0.0,
+      "RW_exact_variance": 0.0
+    }
+  ],
+  "all_passed": true,
+  "scope": "Conditional moments for one-stage linear difference estimates; not finite-sample confidence coverage guarantee"
+}

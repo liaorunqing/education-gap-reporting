@@ -1,0 +1,11 @@
+{
+  "missing_records": 8741,
+  "carry_forward": 0.0353367689792528,
+  "unrestricted_lower": -0.3756465084865913,
+  "unrestricted_upper": 0.39459784611710214,
+  "unrestricted_exact_binary_bounds_reproduced": true,
+  "nested_bounds": true,
+  "no_sampling_confidence_level_claim": true,
+  "missing_change_fraction_not_validated": true,
+  "current_eligibility_not_resolved": true
+}

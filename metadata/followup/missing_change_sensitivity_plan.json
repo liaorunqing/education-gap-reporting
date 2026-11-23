@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-11-22T15:02:53.884358+00:00",
+  "status": "Supplementary exploratory stress test added after initial interval cases, before this calculation",
+  "grid": [
+    0,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    1
+  ],
+  "constraint": "Within each baseline nativity group, at most r of the missing-record PRIOR WEIGHT mass may change binary BA status",
+  "target": "Hypothetical later binary-label contrast of all baseline records with fixed prior weights and standard; current eligibility unresolved",
+  "bounds": "Fractional-knapsack linear-relaxation outer bounds; direction-specific flips; not confidence intervals",
+  "assumptions": "r not estimated or validated by respondents; observed current BA and missing prior BA used; no imputed reference truth or current-resident claim"
+}

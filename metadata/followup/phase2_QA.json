@@ -1,0 +1,14 @@
+{
+  "known_prior_target": 0.039902324712670065,
+  "standardized_complete_case": 0.02913155168639759,
+  "cell_calibration_identical": 0.029131551686397528,
+  "algebraic_duplicate_not_counted_as_improvement": true,
+  "masked_target_perturbation_leaves_all_features_and_training_labels_unchanged": true,
+  "folds_disjoint_by_household": true,
+  "all_logistic_fits_converged": true,
+  "followup_education_and_weights_never_used": true,
+  "actual_missing_followup_education_estimated": false,
+  "missing_at_random_verified": false,
+  "new_population_validation": false,
+  "five_splits_are_fitting_variation_not_population_replication": true
+}
